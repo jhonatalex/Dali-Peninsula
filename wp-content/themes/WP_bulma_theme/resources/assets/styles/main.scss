@@ -1,0 +1,78 @@
+@charset "utf-8";
+
+// //Set your brand colors
+$primary: #3aa9ac;
+$link: #8880b0;
+$info: #f0f0f0;
+$succes: #453a5c;
+$warning: #e8bb53;
+$danger: #d57971;
+
+// Import only what you need from Bulma
+@import "./bulma/bulma.sass";
+
+
+// tipografias
+@font-face {
+    font-family: "Gilroy ExtraBold";
+    src: url("../fonts/Gilroy-ExtraBold.otf");
+}
+
+.GExtraB {
+    font-family: "Gilroy ExtraBold";
+}
+
+@font-face {
+    font-family: "Gilroy Light";
+    src: url("../fonts/Gilroy-Light.otf");
+}
+
+.Light {
+    font-family: "Gilroy Light";
+}
+
+@font-face {
+    font-family: "Helvetica";
+    src: url("../fonts/Helvetica.ttc");
+}
+
+.Helvetica {
+    font-family: "Gilroy ExtraBold";
+}
+
+@font-face {
+    font-family: "Myriad";
+    src: url("../fonts/MyriadPro-Regular.otf");
+}
+
+.Myriad {
+    font-family: "Myriad";
+}
+
+
+.img-max-50 {
+   padding:10px;
+   width:100px;
+   height: 50px;
+}
+
+#header{
+    background-image:url("../../assets/img/fondo_dali_header.png");
+    background-color: #cccccc;
+    background-size: cover;
+    color:white;
+    height:120vh;
+}
+
+
+.title_header {
+    margin-top: 40% ;
+}
+
+.title_header h1 {
+    font-size: 42pt;
+}
+
+.title_header h2 {
+    margin-top: 40% ;
+}
