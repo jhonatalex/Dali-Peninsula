@@ -21,7 +21,7 @@
     <nav id="site-navigation" role="navigation" class="navbar has-text-white p-13px has-background-white-light font-Metropolis_Light fixed">
         <div class="navbar-brand">
             <a class="is-hidden-desktop" href="#">
-                <img src="<?php echo get_template_directory_uri();?>/assets/img/logo_loga.png" alt="Condominio Inspira" class="logo">
+                <img src="<?php echo get_template_directory_uri();?>/assets/img/logo_loga.png" alt="Loga Inmobiliaria" class="logo">
             </a>
             <div class="navbar-burger burger" data-target="navbarExampleTransparentExample">
                 <span></span>
@@ -29,17 +29,21 @@
                 <span></span>
             </div>
         </div>
-        <div id="navbarExampleTransparentExample" class="navbar-menu has-background-grey-light">
-            <div class="is-flex is-justify-content-space-between">
+        <div id="navbarExampleTransparentExample" class="navbar-menu">
+            <div class="flex-container">
 
-                <img src="<?php echo get_template_directory_uri();?>/assets/img/logo_loga.png" alt="Loga Inmobiliaria" class="img-max-50">
-
-                <a class="navbar-item  is-size-7 has-text-weight-bold" href="#header">HOME |</a>
-                <a class="navbar-item  is-size-7 has-text-weight-bold" href="#header">PROYECTO |</a>
-                <a class="navbar-item  is-size-7 has-text-weight-bold" href="/">TERMINACIONES |</a>
-                <a class="navbar-item  is-size-7 has-text-weight-bold" href="/">DEPTO. A |</a>
-                <a class="navbar-item  is-size-7 has-text-weight-bold" href="#contacto">CONTACTO |</a>
-                
+                <div class="site-branding">
+                    <img src="<?php echo get_template_directory_uri();?>/assets/img/logo_loga.png" alt="Loga Inmobiliaria" class="img-max-50">
+                </div>
+               
+                <div class="main-navigatio is-flex Font_Neutra ">
+                    <a class="navbar-item  is-size-6 Font_Neutra" href="#header">HOME</a>
+                    <a class="navbar-item  is-size-6 Font_Neutra" href="#header">PROYECTO</a>
+                    <a class="navbar-item  is-size-6 Font_Neutra" href="/">TERMINACIONES</a>
+                    <a class="navbar-item  is-size-6 Font_Neutra" href="/">DEPTO. A </a>
+                    <a class="navbar-item  is-size-6 Font_Neutra" href="#contacto">CONTACTO</a>
+                </div>    
+               
                 <div id="logo-desktop" class=" logo-menu">
                 <a class="" href="#">
                     <img src="<?php echo get_template_directory_uri();?>/assets//img/logo_dali.png" alt="Dali Peninsula" class="logo img-max-50">
@@ -48,3 +52,4 @@
             </div>
         </div>
     </nav>
+
