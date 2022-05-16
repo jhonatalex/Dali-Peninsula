@@ -1,0 +1,147 @@
+@charset "utf-8";
+
+// //Set your brand colors
+$primary: #3aa9ac;
+$link: #8880b0;
+$info: #f0f0f0;
+$succes: #453a5c;
+$warning: #e8bb53;
+$danger: #d57971;
+
+// Import only what you need from Bulma
+@import "./bulma/bulma.sass";
+
+
+// tipografias
+@font-face {
+    font-family: "Gilroy ExtraBold";
+    src: url("../fonts/Gilroy-ExtraBold.otf");
+}
+
+.GExtraB {
+    font-family: "Gilroy ExtraBold";
+}
+
+@font-face {
+    font-family: "Gilroy Light";
+    src: url("../fonts/Gilroy-Light.otf");
+}
+
+.Light {
+    font-family: "Gilroy Light";
+}
+
+@font-face {
+    font-family: "Helvetica";
+    src: url("../fonts/Helvetica.ttc");
+}
+
+.Helvetica {
+    font-family: "Gilroy ExtraBold";
+}
+
+@font-face {
+    font-family: "Myriad";
+    src: url("../fonts/MyriadPro-Regular.otf");
+}
+
+
+@font-face {
+    font-family: "Font_Neutra";
+    src: url("../fonts/neutra-text-alt-587261020eccb.otf") format('otf');
+}
+
+.Font_Neutra {
+    font-family: 'Font_Neutra';
+}
+
+.Myriad {
+    font-family: "Myriad";
+}
+
+
+
+.main-navigation {
+    display: block;
+    width: 100%;
+}
+
+.navbar-item{
+
+    border-left: 2px solid #020202;
+    height:5px;
+
+}
+
+.navbar {
+background-color:rgba(255,255,255,0.8);
+position:absolute;
+width: 100%;
+}
+
+
+
+.img-max-50 {
+   padding:10px;
+   width:100px;
+   height: 50px;
+}
+
+#header{
+    background-image:url("../../assets/img/fondo_dali_header.png");
+    background-color: #cccccc;
+    background-size: cover;
+    color:white;
+    height:120vh;
+}
+
+
+.title_header {
+    margin-left: 10px;
+    margin-top: 40% ;
+    
+}
+
+.title_header h1 {
+    font-size: 48pt;
+    letter-spacing: 4px;
+    font-family:sans-serif;
+}
+
+
+.title_header h2 {
+    font-size: 18pt;
+    
+}
+
+.title_header h3 {
+    margin-left: 54px;
+    font-size: 18pt;
+}
+.title_header h3 span{
+    padding:5px;
+    background-color:rgba(0, 145, 177, 0.616);
+}
+
+
+.flex-container {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    height: 60px;
+  }
+
+
