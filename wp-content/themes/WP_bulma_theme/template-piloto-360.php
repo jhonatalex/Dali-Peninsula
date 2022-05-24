@@ -48,7 +48,6 @@
 
                     
                 </div>
-
                 <div class="column is-5 is-full">                        
                     <button class="cotizar"><a class="enlace-cotizar" href="#">Cotizar</a></button>  
                 </div>
