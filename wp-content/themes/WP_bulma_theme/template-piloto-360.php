@@ -16,47 +16,28 @@
 <?php get_header(); ?>
 
 
-<script src="https://kit.fontawesome.com/85cc333d5c.js" crossorigin="anonymous"></script>
 
-<!-- SECCION 1 HEADER-->
-<section class="hero" id="header-piloto-360">
-    <div class="hero-body">
-        <div class="container"> 
-            <div class="columns has-text-white "  >
-                <div class="column is-half mt-25">
-                    <h2 class="has-text-centered">PILOTO 360°</h2>
-                    <h2 class="has-text-centered">DEPTO. A</h2>
-                </div>
-                <div class="column mt-40 has-text-right">
-                    <p>No importa dónde estés, ni lo que estés haciendo...<br>
-                    Visualiza tu nueva vida, desde la comodidad de tu hogar</p>
-                    <button class="cotizar-1"><a class="enlace-cotizar-1" href="#">Cotizar</a></button>
-                </div>
-            </div>  
-        </div>
-    </div>
+<section id="header-diseño" class="fondo-header ">
+      <div class="hero-body">
+            <div class="columns is-marginless is-vcentered pt-5p pr-5p ">
+               <div class="column is-offset-6-desktop is-6-desktop is-8-tablet is-11-mobile is-offset-1-mobile ">
+                  
+               </div>
+            </div>      
+      </div>
+    
 </section>
 
-<!-- SECCION 2 DISEÑO-->
-<section class="hero has-background-black">
-    <div class="hero-body">
-        <div class="container">
+<section id="cocina" >
+      <div class="hero-foot has-background-black">
+            <div class="columns is-marginless is-vcentered pt-5p pr-5p ">
+               <div class="column is-offset-3-desktop is-6-desktop is-8-tablet is-10-mobile is-offset-1-mobile ">
+                    <p>lorem PArssddd </p>
 
-            <div class="columns is-centered is-multiline">
-                <div class="column is-8  is-full">           
-                    <h2>VIVE LA VIDA... ¡DESDE LOS MÁS ALTO</h2>
+               </div>
+            </div>
+      </div>
 
-                </div>
-                <div class="column is-5 is-full">                        
-                    <button class="cotizar"><a class="enlace-cotizar" href="#">Cotizar</a></button>  
-                </div>
-
-
-            </div>    
-
-           
-        </div>
-    </div>
 </section>
 
 
