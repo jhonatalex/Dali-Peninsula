@@ -16,6 +16,7 @@
 <?php get_header(); ?>
 
 
+
 <section id="header-diseño" class="fondo-header ">
       <div class="hero-body">
             <div class="columns is-marginless is-vcentered pt-5p pr-5p ">
@@ -36,6 +37,7 @@
                </div>
             </div>
       </div>
+
 </section>
 
 
