@@ -9929,3 +9929,68 @@ label.panel-block:hover {
   width: 15px;
   height: 36px;
 }
+
+#header-terminaciones {
+  background-image: url("../../assets/img/room-_terminaciones.png");
+  background-color: #cccccc;
+  background-size: cover;
+  color: black;
+  height: 120vh;
+}
+
+.hero-body .tituloTerminaciones {
+  display: inline;
+  text-align: right;
+}
+
+.hero-body .parrafoTitulo {
+  font-size: 14px;
+  text-align: right;
+  line-height: 24px;
+}
+
+.domoticaEnfocada {
+  text-align: right;
+}
+
+.cotizar {
+  border-radius: 0;
+  background: #000;
+  border-width: 2px;
+  border-color: #3aa9ac;
+}
+
+.cotizar .enlace-cotizar {
+  font-size: 20px;
+  color: #fff;
+  padding: 10px 30px;
+}
+
+#header-piloto-360 {
+  background-image: url("../../assets/img/living_piloto.png");
+  background-color: #cccccc;
+  background-size: cover;
+  color: black;
+  height: 110vh;
+}
+
+.mt-25 {
+  margin-top: 25%;
+}
+
+.mt-40 {
+  margin-top: 42%;
+}
+
+.cotizar-1 {
+  border-radius: 0;
+  background: #fff;
+  border-width: 1px;
+  border-color: #ccc;
+}
+
+.cotizar-1 .enlace-cotizar-1 {
+  font-size: 20px;
+  color: #000;
+  padding: 10px 30px;
+}

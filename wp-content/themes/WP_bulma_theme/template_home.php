@@ -36,6 +36,7 @@
         <div class="container">
 
             <div class="columns has-text-white">
+
                 <div class="column is-5-desktop is-offset-2-desktop ">
                     <h2 class="Monserrat-Light is-size-4">EL DISEÑO Y LA VANGUARDIA EN UN SOLO LUGAR</h2>
                     <img  src="<?php echo get_template_directory_uri();?>/assets/img/line_white.png" alt="line">
@@ -47,6 +48,7 @@
                 <div class="column is-5-desktop is-offset-1-desktop pt-40 ">
                     <h2>2, 3 & 4 <br>  Dormitorios.</h2>
                     <img src="<?php echo get_template_directory_uri();?>/assets/img/line_blue.png" alt="line">
+
                     <h2>Penthouses</h2>
                 </div>
             </div>
@@ -57,6 +59,7 @@
 </section>
 
 <!-- SECCION 3 PILOTO VIRTUAL -->
+
 <section id="piloto-virtual">
     <div class="hero-body" >
         <div class="container">
@@ -78,7 +81,6 @@
 
                 </div>
 
-         
             </div>
         </div>
     </div>
@@ -96,6 +98,7 @@
         </div>
     </div>
 </section>
+
 
 <!-- plantas -->
 <section class="hero has-background-black">
@@ -515,9 +518,6 @@
       </div>
 
 </section>
-
-
-
 
 
 
