@@ -46,7 +46,6 @@
                 <div class="column is-8  is-full">           
                     <h2>VIVE LA VIDA... ¡DESDE LOS MÁS ALTO</h2>
 
-                    
                 </div>
                 <div class="column is-5 is-full">                        
                     <button class="cotizar"><a class="enlace-cotizar" href="#">Cotizar</a></button>  
