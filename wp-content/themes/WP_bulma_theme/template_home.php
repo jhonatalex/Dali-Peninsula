@@ -38,7 +38,7 @@
             <div class="columns has-text-white">
 
                 <div class="column is-5-desktop is-offset-2-desktop ">
-                    <h2 class="Monserrat-Light is-size-4">EL DISEÑO Y LA VANGUARDIA EN UN SOLO LUGAR</h2>
+                    <h2 class="f_ml is-size-4 espacio3">EL DISEÑO Y LA VANGUARDIA EN UN SOLO LUGAR</h2>
                     <img  src="<?php echo get_template_directory_uri();?>/assets/img/line_white.png" alt="line">
                     <p class="has-text-justified">Respira hondo, siente la desconexión y disfruta del relajo que solo te pueden dar las olas de
                          Iquique. <br> <br> Edificio Dalí Península es un proyecto boutique que cuenta con 16 pisos y tan sólo
@@ -46,10 +46,10 @@
                            y desconexión a otro nivel.</p>
                 </div>
                 <div class="column is-5-desktop is-offset-1-desktop pt-40 ">
-                    <h2>2, 3 & 4 <br>  Dormitorios.</h2>
+                    <h2 class="f_neutra">2, 3 & 4 <br>  Dormitorios.</h2>
                     <img src="<?php echo get_template_directory_uri();?>/assets/img/line_blue.png" alt="line">
 
-                    <h2>Penthouses</h2>
+                    <h2 class="f_neutra">Penthouses</h2>
                 </div>
             </div>
 
@@ -63,55 +63,99 @@
 <section id="piloto-virtual">
     <div class="hero-body" >
         <div class="container">
+            
+
             <div class="columns is-vcentered">
-                <div class="column is-10 has-text-white has-text-right ">
-                    <div class=" is-flex is-justify-content-flex-end  title_buttom  has-text-right is-vcentered">
-                        <button class=" button-new">Nuevo</button>
-                        <h2 class="  Monserrat-Light is-size-3">VIDEO</h2>
+
+                <div class="column is-5 is-offset-1-desktop pt-full-10">
+                     <img src="<?php echo get_template_directory_uri();?>/assets/img/buttom_play.png" alt="play">
+                </div>
+
+                <div class="column is-5  has-text-white has-text-right ">
+                    <div class=" is-flex is-justify-content-right">
+                        <button class=" f_mm  button-transparent">NUEVO</button>
+                        <h2 class="f_ml is-size-3  ">VIDEO</h2>
                     </div>
-                    <h2 class=" Monserrat-Light is-size-3">PILOTO VIRTUAL</h2>
+                    <h2 class="f_ml is-size-3">PILOTO VIRTUAL</h2>
                     <p>Una nueva forma de recorrer la altura de Iquique.<p>
                         <br>
-                    <h4>    DEPTO. TIPO A <br>
-                        3 DORMS. + 3 BAÑOS</h4>
+                    <h4 class="f_mbItalic">  DEPTO. TIPO A <br> 3 DORMS. + 3 BAÑOS</h4>
 
-                    
-                    <button type="button" class="">Cotizar</button>
-                 
-
+                    <button class="has-background-white  has-text-black padding-buttom-10 f_neutra">Cotizar</button>
                 </div>
-
             </div>
+
+
+
+
         </div>
     </div>
 </section>
 
-<!-- perspectivas -->
-<section class="hero">
-    <div class="hero-body">
+
+<!-- SECCION 4 PISOS -->
+<section id="pisos"  class="has-background-white">
+    <div class="hero-body" >
         <div class="container">
-            <div class="columns">
-                <div class="column">
+            <div class="columns is-vcentered has-text-centered ">
+                <div class="column is-three-fifths is-offset-one-fifth has-text-white  has-text-centered ">
+
+                    <div class="columns  has-text-centered">
+                        <div class="column is-3  is-offset-2 has-text-white  ">
+                            <button class="button-blue">Piso 2 al 13</button>
+                        </div>
+                        <div class="column is-3 has-text-white  ">
+                            <button class="button-gray">Piso 14 y 15*</button>
+                        </div>
+                        <div class="column is-3 has-text-white  ">
+                            <button class="button-gray">Penthouses</button>
+                        </div>
+
+                    </div>
+
+
+                    <div class="columns is-vcentered has-text-centered">
+                        <div class="column has-text-white  ">
+                        <img src="<?php echo get_template_directory_uri();?>/assets/img/piso_2_13.png" alt="play">
+                        </div>
+
+                    </div>
+
+                    <div class="columns is-vcentered has-text-centered">
+                        <div class="column  has-text-white  ">
+                        <img src="<?php echo get_template_directory_uri();?>/assets/img/brand_pisos.png" alt="play">
+                        </div>
+
+                    </div>
 
                 </div>
             </div>
+
         </div>
     </div>
 </section>
 
 
-<!-- plantas -->
+
+
+<!-- SECCION 5 PLANTAS -->
 <section class="hero has-background-black">
     <div class="hero-body">
         <div class="container is-centered">
         <div class="columns is-centered">
-            <div class="column is-6 has-text-centered has-text-white">
-                <h1 class="is-size-4 f_sinl">TUS CONCEPTOS & ESPACIOS</h1>
-                <h3 class="is-size-5 has-text-success f_sinm">SEGÚN TU ESTILO DE VIDA</h3>
+        
+            <div class="column is-4 is-offset-1-desktop has-text-white">
+                   <div class="is-flex">
+                        <h4 class="is-size-3 is-size-5-mobile f_mh  espacio2">UN LUGAR</h4>
+                        <img class="arrow-blue is-centered-mobile" src="<?php echo get_template_directory_uri();?>/assets/img/arrow_blue.png">
+                   </div>
+                   <h4 class="is-size-3 is-size-5-mobile  f_mh  espacio2">SOLO PARA TI</h4>
+
+                   <p class="is-size-13" >Encuentra ese espacio que entiende cómo se mueve tu vida.</p>
             </div>
-        </div>
-        <div class="columns is-centered is-multiline">
-            <div class="column is-6 has-text-centered has-text-white">
+
+
+            <div class="column is-4 has-text-centered has-text-white">
                 <button class="button btncase f_gpm is-size-7 is-warning has-text-white" data-attribute="2dorm">2
                     DORMS.</button>
                 <button class="button btncase f_gpm is-size-7 is-warning has-text-white" data-attribute="3dorm">3
@@ -119,6 +163,9 @@
                 <button class="button btncase f_gpm is-size-7 is-warning has-text-white" data-attribute="4dorm">4
                     DORMS.</button>
             </div>
+
+        </div>
+        <div class="columns is-centered is-multiline">
             <div class="column is-12 has-text-centered has-text-white">
                 <p id="dis-2dorm" class="disponibilidad is-hidden">2 PLANTAS TIPO</p>
                 <p id="dis-3dorm" class="disponibilidad is-hidden">3 PLANTAS TIPO</p>
@@ -129,7 +176,7 @@
             <!-- esquicio -->
             <div class="column is-2 is-6-mobile is-offset-3-mobile has-text-centered-mobile is-centered-mobile">
                 <figure>
-                    <img id="esquicio" src="./assets/img/planta-c/PLANO-PLANTA-TIPO-C.png"
+                    <img id="esquicio" src="<?php echo get_template_directory_uri();?>/assets/img/planta-c/PLANO-PLANTA-TIPO-C.png"
                     alt="Edificio Dalí Loga Iquique">
                 </figure>
             </div>
@@ -143,49 +190,49 @@
                 <!-- plantas c -->
                 <div class="slide 2dorm has-text-centered z ">
                     <p class="is-size-6 f_ml">Plantas preliminares</p>
-                    <img src="./assets/img/planta-c/PLANTA-TIPO-C.png" alt="Edificio Dalí Loga"
-                    data-zoom-image="./assets/img/planta-c/PLANTA-TIPO-C.png">
+                    <img src="<?php echo get_template_directory_uri();?>/assets/img/planta-c/PLANTA-TIPO-C.png" alt="Edificio Dalí Loga"
+                    data-zoom-image="<?php echo get_template_directory_uri();?>/assets/img/planta-c/PLANTA-TIPO-C.png">
                 </div>
 
                 <!-- plantas b generico -->
                 <div class="slide 2dorm has-text-centered z ">
                     <p class="is-size-6 f_ml">Plantas preliminares</p>
-                    <img src="./assets/img/planta-b/planta-TIPO-B.png" alt="Edificio Dalí Loga"
-                    data-zoom-image="./assets/img/planta-b/planta-TIPO-B.png">
+                    <img src="<?php echo get_template_directory_uri();?>/assets/img/planta-b/planta-TIPO-B.png" alt="Edificio Dalí Loga"
+                    data-zoom-image="<?php echo get_template_directory_uri();?>/assets/img/planta-b/planta-TIPO-B.png">
                 </div>
 
                 <!-- plantas A generico -->
                 <div class="slide 3dorm has-text-centered z ">
                     <p class="is-size-6 f_ml">Plantas preliminares</p>
-                    <img src="./assets/img/planta-a/TIPO-A.png" alt="Edificio Dalí Loga"
-                    data-zoom-image="./assets/img/planta-a/TIPO-A.png">
+                    <img src="<?php echo get_template_directory_uri();?>/assets/img/planta-a/TIPO-A.png" alt="Edificio Dalí Loga"
+                    data-zoom-image="<?php echo get_template_directory_uri();?>/assets/img/planta-a/TIPO-A.png">
                 </div>
 
                 <!-- piso 14 -->
                 <!-- plantas -->
                 <div class="slide 3dorm has-text-centered z ">
                     <p class="is-size-6 f_ml">Plantas preliminares</p>
-                    <img src="./assets/img/planta-a/planta-A2-1.png" alt="Edificio Dalí Loga"
-                    data-zoom-image="./assets/img/planta-a/planta-A2-1.png" al>
+                    <img src="<?php echo get_template_directory_uri();?>/assets/img/planta-a/planta-A2-1.png" alt="Edificio Dalí Loga"
+                    data-zoom-image="<?php echo get_template_directory_uri();?>/assets/img/planta-a/planta-A2-1.png" al>
                 </div>
 
                 <div class="slide 3dorm has-text-centered z ">
                     <p class="is-size-6 f_ml">Plantas preliminares</p>
-                    <img src="./assets/img/planta-b/planta-B2-1.png" alt="Edificio Dalí Loga"
-                    data-zoom-image="./assets/img/planta-b/planta-B2-1.png">
+                    <img src="<?php echo get_template_directory_uri();?>/assets/img/planta-b/planta-B2-1.png" alt="Edificio Dalí Loga"
+                    data-zoom-image="<?php echo get_template_directory_uri();?>/assets/img/planta-b/planta-B2-1.png">
                 </div>
 
                 <!-- piso 15 -->
                 <!-- plantas -->
                 <div class="slide 3dorm has-text-centered z ">
                     <p class="is-size-6 f_ml">Plantas preliminares</p>
-                    <img src="./assets/img/planta-a/PISO15_Dpto A1.png" alt="Edificio Dalí Loga"
-                    data-zoom-image="./assets/img/planta-a/PISO15_Dpto A1.png">
+                    <img src="<?php echo get_template_directory_uri();?>/assets/img/planta-a/PISO15_Dpto A1.png" alt="Edificio Dalí Loga"
+                    data-zoom-image="<?php echo get_template_directory_uri();?>/assets/img/planta-a/PISO15_Dpto A1.png">
                 </div>
                 <div class="slide 3dorm has-text-centered z ">
                     <p class="is-size-6 f_ml">Plantas preliminares</p>
-                    <img src="./assets/img/planta-b/PISO15_Dpto B1.png" alt="Edificio Dalí Loga"
-                    data-zoom-image="./assets/img/planta-b/PISO15_Dpto B1.png">
+                    <img src="<?php echo get_template_directory_uri();?>/assets/img/planta-b/PISO15_Dpto B1.png" alt="Edificio Dalí Loga"
+                    data-zoom-image="<?php echo get_template_directory_uri();?>/assets/img/planta-b/PISO15_Dpto B1.png">
                 </div>
 
                 <!-- piso 16 -->
@@ -198,8 +245,8 @@
                     top: 50%;
                     left: 50%;
                     transform: translate(-50%, -50%);" >RESERVADO</span>  
-                    <img src="./assets/img/planta-a/PISO16_Dpto A2.png" alt="Edificio Dalí Loga"
-                    data-zoom-image="./assets/img/planta-a/PISO16_Dpto A2.png">
+                    <img src="<?php echo get_template_directory_uri();?>/assets/img/planta-a/PISO16_Dpto A2.png" alt="Edificio Dalí Loga"
+                    data-zoom-image="<?php echo get_template_directory_uri();?>/assets/img/planta-a/PISO16_Dpto A2.png">
                     <div class="is-centered">
                     <p class="linea1 has-text-centered has-text-success">
                         <span class="f_gpbol is-size-5">> PLANTA A2</span>&nbsp;&nbsp;&nbsp;
@@ -218,8 +265,8 @@
                     top: 50%;
                     left: 50%;
                     transform: translate(-50%, -50%);" >RESERVADO</span>  
-                    <img src="./assets/img/planta-a/planta-A2-3-TP.png" alt="Edificio Dalí Loga"
-                    data-zoom-image="./assets/img/planta-a/planta-A2-3-TP.png">
+                    <img src="<?php echo get_template_directory_uri();?>/assets/img/planta-a/planta-A2-3-TP.png" alt="Edificio Dalí Loga"
+                    data-zoom-image="<?php echo get_template_directory_uri();?>/assets/img/planta-a/planta-A2-3-TP.png">
                     <div class="is-centered">
                     <p class="linea1 has-text-centered has-text-success">
                         <span class="has-text-white f_gpl is-size-6">PLANTA A2</span>&nbsp;&nbsp;&nbsp;
@@ -231,8 +278,8 @@
                 <!-- piso 16 -->
                 <div class="slide 4dorm has-text-centered z ">
                     <p class="is-size-6 f_ml">Plantas preliminares</p>
-                    <img src="./assets/img/planta-b/PISO16_DptoB2.png" alt="Edificio Dalí Loga"
-                    data-zoom-image="./assets/img/planta-b/PISO16_DptoB2.png">
+                    <img src="<?php echo get_template_directory_uri();?>/assets/img/planta-b/PISO16_DptoB2.png" alt="Edificio Dalí Loga"
+                    data-zoom-image="<?php echo get_template_directory_uri();?>/assets/img/planta-b/PISO16_DptoB2.png">
                     <div class="is-centered">
                     <p class="linea1 has-text-centered has-text-success">
                         <span class="f_gpbol is-size-5">> PLANTA B2</span>&nbsp;&nbsp;&nbsp;
@@ -244,8 +291,8 @@
                 <!-- piso 17 -->
                 <div class="slide 4dorm has-text-centered z ">
                     <p class="is-size-6 f_ml">Plantas preliminares</p>
-                    <img src="./assets/img/planta-b/planta-B2-3-TP.png" alt="Edificio Dalí Loga"
-                    data-zoom-image="./assets/img/planta-b/planta-B2-3-TP.png">
+                    <img src="<?php echo get_template_directory_uri();?>/assets/img/planta-b/planta-B2-3-TP.png" alt="Edificio Dalí Loga"
+                    data-zoom-image="<?php echo get_template_directory_uri();?>/assets/img/planta-b/planta-B2-3-TP.png">
                     <div class="is-centered">
                     <p class="linea1 has-text-centered has-text-success">
                         <span class="has-text-white f_gpl is-size-6">PLANTA B2</span>&nbsp;&nbsp;&nbsp;
@@ -271,7 +318,7 @@
                 <br>
                 <br>
                 <p class="has-text-left">
-                    <img src="./assets/img/icon/ZOOM.svg" alt="Edificio Dalí" width="50px">
+                    <img src="<?php echo get_template_directory_uri();?>/assets/img/icon/ZOOM.svg" alt="Edificio Dalí" width="50px">
                 </p>
             </div>
         </div>
@@ -280,18 +327,18 @@
 </section>
 
 
-<!-- SECCION 5 PERSPECTVA -->
+<!-- SECCION 6 PERSPECTVA -->
 <section id="perspectiva">
     <div class="hero-body" >
         <div class="container">
             <div class="columns is-vcentered">
                 <div class="column is-11 has-text-white has-text-right title_box_perspectiva ">
-                    <h2 class="Myriad is-size-3 mt-100 ">PERSPECTIVA</h2>
-                    <h3>DÍA & NOCHE</h3>
+                    <h2 class="f_mb is-size-3 mt-100 ">PERSPECTIVA</h2>
+                    <h3 class="f_ml">DÍA & NOCHE</h3>
                     <p>Hay un antes y un después de sentir la exclusividad<br>
                     de Dalí Península. Disfruta de las mejores vistas del <br>norte.
                     ¡Sí, las mejores!<p>
-                    <button class="">Conoce más</button>
+                    <button class="button-blue">Conoce más</button>
                 
                 </div>
 
@@ -302,32 +349,30 @@
 </section>
 
 
-<!-- SECCION 6 CINEMAGRAPH -->
+<!-- SECCION 7 CINEMAGRAPH -->
 <section id="cinemagraph">
     <div class="hero-body" >
         <div class="container">
             <div class="columns is-vcentered">
-                <div class="column is-5 is-offset-1-desktop has-text-white has-has-text-left  title_box_perspectiva ">
-                    <h2 class="Myriad is-size-3 mt-100 ">CINEMAGRAPH</h2>
-                    <h3>EDIFICIO</h3> 
-                    <p>Una pausa mirando el infinito mar de Iquique.<br>
+                <div class="column is-5 is-offset-1-desktop has-text-white has-has-text-left  ">
+                    <h2 class="f_mm  is-size-3 mt-100 ">CINEMAGRAPH</h2>
+                    <h3 class="f_ml">EDIFICIO</h3> 
+                    <p class="is-size-14">Una pausa mirando el infinito mar de Iquique.<br>
                         Con Edificio Dalí Península los atardeceres serán<br>
                         parte de tu vida.<p>
-                    <button class="">Cotizar</button>
+                    <button class="has-background-white  has-text-black padding-buttom-10 f_neutra " >Cotizar</button>
                 </div>
 
-                <div class="column is-5 is-offset-1-desktop is-vcentered">
+                <div class="column is-5 is-offset-1-desktop pt-full-50">
                 <img src="<?php echo get_template_directory_uri();?>/assets/img/buttom_play.png" alt="play">
                 
                 </div>
-
-         
             </div>
         </div>
     </div>
 </section>
 
-<!-- SECCION 7 EDIFICIO 360 -->
+<!-- SECCION 8 EDIFICIO 360 -->
 <section class="hero has-background-black" id="edificio360">
     <div class="hero-body ">
         <div class="container">
@@ -390,7 +435,7 @@
                <div class="columns  is-centered ">
                   <div class="column is-10 has-text-centered  is-12-mobile">
                      <h2 class="f_ml is-size-3">INSCRÍBETE AQUÍ</h2>
-                     <h2 class="f_mm is-size-5">PARA SER PARTE DE ESTA EXCLUSIVA PREVENTA</h2>
+                     <h2 class="f_mmI is-size-5">PARA SER PARTE DE ESTA EXCLUSIVA PREVENTA</h2>
                   </div>
                </div>
                <!-- título -->

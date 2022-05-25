@@ -1,5 +1,4 @@
 /*! bulma.io v0.7.1 | MIT License | github.com/jgthms/bulma */
-@import url("https://fonts.googleapis.com/css2?family=Fjalla+One&family=Montserrat:wght@300&display=swap");
 @keyframes spinAround {
   from {
     transform: rotate(0deg);
@@ -9643,6 +9642,10 @@ label.panel-block:hover {
   font-size: 12px;
 }
 
+.is-size-14 {
+  font-size: 14px;
+}
+
 @font-face {
   font-family: "f_gpbol";
   src: url("../../assets/fonts/GothaProBol.otf");
@@ -9714,6 +9717,15 @@ label.panel-block:hover {
 
 .f_mm {
   font-family: "f_mm";
+}
+
+.f_mmI {
+  font-family: "f_mm";
+  font-style: italic;
+}
+
+.f_mbItalic {
+  font-family: "f_mb";
   font-style: italic;
 }
 
@@ -9726,26 +9738,45 @@ label.panel-block:hover {
 }
 
 @font-face {
-  font-family: "Myriad";
-  src: url("../../assets/fonts/MyriadPro-Regular.otf");
+  font-family: "f_neutra";
+  src: url("../../assets/fonts/neutra-text-alt-587261020eccb.otf");
 }
 
 @font-face {
-  font-family: "Font_Neutra";
-  src: url("../../assets/fonts/neutra-text-alt-587261020eccb.otf") format("otf");
+  font-family: "f_neutra_bold";
+  src: url("../../assets/fonts/neutra-text-bold-5871e1605afa2.otf");
 }
 
-.Monserrat-Light {
-  font-family: 'Montserrat', sans-serif;
+.f_neutra {
+  font-family: "f_neutra";
 }
 
-.Font_Neutra {
-  font-family: 'Font_Neutra';
+.f_neutra_bold {
+  font-family: "f_neutra_bold";
 }
 
-.Myriad {
-  font-family: 'Fjalla One', sans-serif;
-  letter-spacing: 8px;
+.pt-40 {
+  padding-top: 40px;
+}
+
+.mt-100 {
+  margin-top: 100px;
+}
+
+.pt-full-50 {
+  padding-top: 16%;
+}
+
+.pt-full-10 {
+  padding-top: 5%;
+}
+
+.espacio4 {
+  letter-spacing: 4px;
+}
+
+.espacio3 {
+  letter-spacing: 3px;
 }
 
 .main-navigation {
@@ -9756,6 +9787,7 @@ label.panel-block:hover {
 .navbar-item {
   border-left: 2px solid #020202;
   height: 5px;
+  padding: 5px 30px;
 }
 
 .navbar {
@@ -9784,18 +9816,23 @@ label.panel-block:hover {
 }
 
 .title_header h1 {
-  font-size: 48pt;
-  letter-spacing: 4px;
-  font-family: sans-serif;
+  font-size: 52pt;
+  letter-spacing: 8px;
+  font-family: "f_ml";
 }
 
 .title_header h2 {
   font-size: 18pt;
+  letter-spacing: 4px;
+  font-family: "f_ml";
 }
 
 .title_header h3 {
   margin-left: 54px;
   font-size: 18pt;
+  letter-spacing: 4px;
+  font-family: "f_ml";
+  line-height: 22px;
 }
 
 .title_header h3 span {
@@ -9813,10 +9850,6 @@ label.panel-block:hover {
   height: 60px;
 }
 
-.pt-40 {
-  padding-top: 40px;
-}
-
 #piloto-virtual {
   background-image: url("../../assets/img/piloto_virtua.png");
   background-color: rgba(3, 3, 3, 0.425);
@@ -9830,6 +9863,21 @@ label.panel-block:hover {
   z-index: 9999;
 }
 
+.button-transparent {
+  font-size: 10px;
+  border-radius: 0px;
+  background: none;
+  padding: 3px 24px;
+  height: 25px;
+  margin-top: 12px;
+  margin-right: 5px;
+  border: 1px solid #ffff;
+}
+
+.is-justify-content-right {
+  justify-content: right;
+}
+
 #perspectiva {
   background-image: url("../../assets/img/perspectiva_noche.png");
   background-color: rgba(3, 3, 3, 0.425);
@@ -9838,14 +9886,10 @@ label.panel-block:hover {
   z-index: 0;
 }
 
-.mt-100 {
-  margin-top: 100px;
-}
-
 .title_box_perspectiva h3 {
-  letter-spacing: 15px;
+  letter-spacing: 10px;
   font-weight: 500;
-  line-height: 15px;
+  line-height: 12px;
 }
 
 .title_box_perspectiva p {
@@ -9853,8 +9897,14 @@ label.panel-block:hover {
   font-size: 10pt;
 }
 
-.title_box_perspectiva button {
+.button-blue {
   background-color: #0091B1;
+  padding: 5px 20px;
+  border-radius: 0px;
+}
+
+.button-gray {
+  background-color: #707070;
   padding: 5px 20px;
   border-radius: 0px;
 }
@@ -9863,8 +9913,13 @@ label.panel-block:hover {
   background-image: url("../../assets/img/cinema_fondo.png");
   background-color: rgba(3, 3, 3, 0.425);
   background-size: cover;
-  height: 120vh;
+  height: 110vh;
   z-index: 0;
+}
+
+.padding-buttom-10 {
+  padding: 1px 35px;
+  border-radius: 0px;
 }
 
 .fondo-formulario {
@@ -9918,10 +9973,6 @@ label.panel-block:hover {
 
 .button {
   padding: 10px 25px 10px 25px;
-}
-
-.espacio4 {
-  letter-spacing: 4px;
 }
 
 .arrow-blue {
