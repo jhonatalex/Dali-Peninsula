@@ -90,9 +90,9 @@
                 </div>
             </div>
 
-            <div class="columns is-centered is-multiline">
+            <div class="columns is-centered">
                 <div class="column is-one-fifth">                        
-                    <button class="cotizar"><a class="enlace-cotizar f_bozon_r" href="#">Cotizar</a></button>  
+                    <button class="cotizar f_bozon_r">Cotizar</button>  
                 </div>
             </div>
 

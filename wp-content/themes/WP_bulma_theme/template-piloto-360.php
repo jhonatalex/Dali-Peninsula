@@ -30,7 +30,7 @@
                 <div class="column mt-40 has-text-right">
                     <p>No importa dónde estés, ni lo que estés haciendo...<br>
                     Visualiza tu nueva vida, desde la comodidad de tu hogar</p>
-                    <button class="cotizar-1"><a class="enlace-cotizar-1" href="#">Cotizar</a></button>
+                    <button class="cotizar-1 f_bozon_r">Cotizar</button>
                 </div>
             </div>  
         </div>

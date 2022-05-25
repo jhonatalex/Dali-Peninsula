@@ -10029,12 +10029,10 @@ label.panel-block:hover {
   background: #000;
   border-width: 2px;
   border-color: #3aa9ac;
-}
-
-.cotizar .enlace-cotizar {
-  font-size: 24px;
+  padding: 10px 50px;
   color: #fff;
-  padding: 15px 40px;
+  font-size: 20px;
+  text-align: center;
 }
 
 #header-piloto-360 {
@@ -10058,9 +10056,6 @@ label.panel-block:hover {
   background: #fff;
   border-width: 1px;
   border-color: #ccc;
-}
-
-.cotizar-1 .enlace-cotizar-1 {
   font-size: 20px;
   color: #000;
   padding: 10px 30px;
