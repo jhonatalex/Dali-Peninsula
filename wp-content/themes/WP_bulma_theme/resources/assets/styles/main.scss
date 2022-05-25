@@ -23,7 +23,7 @@ $size-1: 3.5rem;
 // Import only what you need from Bulma
 @import "./bulma/bulma.sass";
 
-
+@import "paginas.scss";
 
 .has-background-grey-2{
  background:#171716;
@@ -107,7 +107,6 @@ $size-1: 3.5rem;
     font-style:italic;
  }
 
-
  .f_mbItalic {
     font-family: "f_mb";
     font-style:italic;
@@ -135,6 +134,10 @@ $size-1: 3.5rem;
     src: url("../../assets/fonts/neutra-text-bold-5871e1605afa2.otf");
  }
 
+ @font-face {
+    font-family: "f_bozon_r";
+    src: url("../../assets/fonts/Bozon_Light.otf");
+ }
 
 .f_neutra {
     font-family: "f_neutra";
@@ -145,6 +148,9 @@ $size-1: 3.5rem;
 }
 
 
+.f_bozon_r {
+    font-family: "f_bozon_r";
+}
 
  
 .pt-40{
@@ -397,10 +403,11 @@ width: 100%;
       border-style: solid;
       border-width: 7px 5px 0 5px;
       border-color: #000000 transparent transparent transparent;
-      z-index: 5;
- 
+      z-index: 5; 
   }
-    
+
+
+      
  .button{
     padding: 10px 25px 10px 25px;
  }
@@ -414,6 +421,7 @@ width: 100%;
  }
 
 
+
 //   TERMINACIONES
 
 #header-terminaciones{
@@ -424,13 +432,7 @@ width: 100%;
     height:120vh;
 }
 
-.hero-body .tituloTerminaciones{
-    display: inline;
-    text-align: right;
-    //background-color: transparent;
-}
-
-.hero-body .parrafoTitulo{
+.parrafoTitulo{
     font-size: 14px;
     text-align: right;
     line-height: 24px;
@@ -448,9 +450,9 @@ width: 100%;
 }
 
 .cotizar .enlace-cotizar{
-    font-size: 20px;
+    font-size: 24px;
     color: #fff;
-    padding: 10px 30px; 
+    padding: 15px 40px; 
 }
 
 //    PILOTO 360°

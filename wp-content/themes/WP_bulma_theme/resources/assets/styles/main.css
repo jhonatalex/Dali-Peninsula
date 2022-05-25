@@ -9630,6 +9630,22 @@ label.panel-block:hover {
   padding: 3rem 1.5rem 6rem;
 }
 
+.pt-full-20 {
+  padding-top: 23%;
+}
+
+.interlineado-1 {
+  line-height: 22px;
+}
+
+.interlineado-2 {
+  line-height: 42px;
+}
+
+.espaciado {
+  margin-right: 3px;
+}
+
 .has-background-grey-2 {
   background: #171716;
 }
@@ -9747,12 +9763,21 @@ label.panel-block:hover {
   src: url("../../assets/fonts/neutra-text-bold-5871e1605afa2.otf");
 }
 
+@font-face {
+  font-family: "f_bozon_r";
+  src: url("../../assets/fonts/Bozon_Light.otf");
+}
+
 .f_neutra {
   font-family: "f_neutra";
 }
 
 .f_neutra_bold {
   font-family: "f_neutra_bold";
+}
+
+.f_bozon_r {
+  font-family: "f_bozon_r";
 }
 
 .pt-40 {
@@ -9989,12 +10014,7 @@ label.panel-block:hover {
   height: 120vh;
 }
 
-.hero-body .tituloTerminaciones {
-  display: inline;
-  text-align: right;
-}
-
-.hero-body .parrafoTitulo {
+.parrafoTitulo {
   font-size: 14px;
   text-align: right;
   line-height: 24px;
@@ -10012,9 +10032,9 @@ label.panel-block:hover {
 }
 
 .cotizar .enlace-cotizar {
-  font-size: 20px;
+  font-size: 24px;
   color: #fff;
-  padding: 10px 30px;
+  padding: 15px 40px;
 }
 
 #header-piloto-360 {
