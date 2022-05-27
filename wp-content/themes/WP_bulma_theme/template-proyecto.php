@@ -16,24 +16,29 @@
 <?php get_header(); ?>
 
 
-<!-- SECCION 6 PERSPECTVA -->
+<script src="https://kit.fontawesome.com/85cc333d5c.js" crossorigin="anonymous"></script>
+
+<!-- SECCION  -->
 <section id="header-proyecto">
     <div class="hero-body" >
         <div class="container">
-            <div class="columns is-vcentered">
-                <div class="column is-5 is-offset-6-desktop has-text-white has-text-right title_box_perspectiva ">
-                    <p class="f_bozon_r pt-full-50 interlineado-1">Hemos creado una experiencia diferente en el mejor sector de Cavancha. 
-                        Porque Dalí Península es lo nuevo en diseño y arquitectura, ideal para
-                         las personas que buscan lo mejor para su día a día.<p>
-
-                    <h2 class="f_mb is-size-3 ">EXCLUSIVIDAD</h2>
-                    <h3 class="f_ml">DISEÑO</h3>
-                    <h3 class="f_ml">MODERNIDAD</h3>
-            
-                    <h3 class="f_mmI">TODO A TUS PIES</h3>
-                </div>
-
-         
+            <div class="columns">
+                <div class="column mr-30 is-4 is-offset-8-tablet pt-full-20 has-text-white">
+                    <div class="columns is-multiline">
+                        <div class="column is-full">
+                            <p class="f_bozon_r pt-full-50 has-text-justified interlineado-1">Hemos creado una experiencia diferente en el
+                            mejor sector de Cavancha. Porque Dalí Península
+                            es lo nuevo en diseño y arquitectura, ideal para las
+                            personas que buscan lo mejor para su día a día.<p>
+                        </div>
+                        <div class="column interlineado-3 is-full has-text-right">
+                            <h2 class="f_mb is-size-3">EXCLUSIVIDAD</h2>
+                            <h3 class="f_ml">DISEÑO</h3>
+                            <h3 class="f_ml">MODERNIDAD</h3>                
+                            <h3 class="f_mmI">_______ TODO A TUS PIES</h3>
+                        </div>                        
+                    </div>                      
+                </div>         
             </div>
         </div>
     </div>
@@ -44,40 +49,41 @@
 <section class="hero has-background-black">
     <div class="hero-body ">
         <div class="container">
+            <div class="columns">
+                <div class="column is-10 is-offset-1">
+                    <div class="columns has-text-white is-8">
 
-            <div class="columns has-text-white">
+                        <div class="column  pt-40 ">
+                            <h2 class="f_neutra is-size-5">2, 3 & 4 <br>  Dormitorios.</h2>
+                            <img src="<?php echo get_template_directory_uri();?>/assets/img/line_blue.png" alt="line">
 
-                 <div class="column is-5-desktop is-offset-1-desktop pt-40 ">
-                    <h2 class="f_neutra">2, 3 & 4 <br>  Dormitorios.</h2>
-                    <img src="<?php echo get_template_directory_uri();?>/assets/img/line_blue.png" alt="line">
+                            <h2 class="f_neutra is-size-5">Penthouses</h2><br>
+                            <br>
+                            <h2 class="f_mmI is-size-5 p"> AZOTEAS PRIVADAS EN PISO 17</h2>
+                            <h2 class="f_mmI is-size-5"> 52 ESTACIONAMIENTOS</h2>
 
-                    <h2 class="f_neutra">Penthouses</h2>
-                    <h2 class="f_neutra"> AZOTEAS PRIVADAS EN PISO 17</h2>
-                    <h2 class="f_neutra"> 52 ESTACIONAMIENTOS</h2>
+                        
+                            <h2 class="f_mmI is-size-5 pt-full-34"> 3 DEPTOS. POR PISO DEL 2 AL 13</h2>
+                            <h2 class="f_mmI is-size-5"> 2 DEPTOS. POR PISO DEL 14 AL 16</h2>
 
-                    <br>
-                    <br>
-                    <br>
-                    <h2 class="f_neutra"> 3 DEPTOS. POR PISO DEL 2 AL 13</h2>
-                    <h2 class="f_neutra"> 2 DEPTOS. POR PISO DEL 14 AL 16</h2>
-           
 
+                        </div>
+
+
+                        <div class="column ">
+                            <img  src="<?php echo get_template_directory_uri();?>/assets/img/walkin_beach.png" alt="line">
+                        </div>
+
+                    </div>
+
+                    <div class="columns has-text-white">
+                        <div class="column pt-40 ">
+                            <img  src="<?php echo get_template_directory_uri();?>/assets/img/people_back.png" alt="line">
+                        </div>
+                    </div>
+                    
                 </div>
-
-
-                <div class="column is-5-desktop is-offset-1-desktop ">
-                    <img  src="<?php echo get_template_directory_uri();?>/assets/img/walkin_beach.png" alt="line">
-                </div>
-             
             </div>
-
-            <div class="columns has-text-white">
-                <div class="column is0-11-desktop is-offset-1-desktop pt-40 ">
-                <img  src="<?php echo get_template_directory_uri();?>/assets/img/people_back.png" alt="line">
-                </div>
-            </div>
-
-
 
         </div>
     </div>
@@ -91,21 +97,143 @@
 <section id="pisos"  class="has-background-black">
     <div class="hero-body" >
         <div class="container">
-            <div class="columns is-vcentered  ">
+
+            <div class="colums">
+                <div class="column is-10 is-offset-1">
+
+                    <div class="columns is-vcentered  ">
+                        <div class="column has-text-white">
+
+                                <div class="columns">
+                                    <div class="column is-7">
+                                        <p class="f_mmI is-size-5">DEPTOS. DEL PISO 16 CON AZOTEA PRIVADA <br>
+                                            /QUINCHO + HOT TUB EN PISO 17</p>
+                                    </div>
+                                    <div class="column is-5">
+                                        <p class="is-size-6 f_bozon_r has-text-right">Todos nuestros departamentos cuentan con visa <br> privilegiada al mar.
+                                            Y queremos que pronto <br> la puedas ver con tus propios ojos.</p>
+                                    </div>
+
+                                </div>
+
+                                <div class="columns pt-60">
+                                    <div class="column is-7 is-size-5">
+                                        <div class="is-flex">
+                                            <i class="fa-solid fa-location-dot pr-10"></i>
+                                            <p class="f_ml">CAPITÁN ROBERTO PÉREZ 0704</p>
+                                        </div>
+                                    </div>
+                                    <div class="column is-5">
+                                        <div class="is-flex is-justify-content-right">
+                                            <img class="arrow-blue pr-10 is-centered-mobile" src="<?php echo get_template_directory_uri();?>/assets/img/arrow_blue_right.png">
+                                            <h4 class="is-size-2 is-size-5-mobile f_ml espacio2">LUGARES</h4>                                            
+                                        </div>
+                                        <h4 class="is-size-2 is-size-5-mobile f_ml has-text-right espacio2">DE INTERÉS</h4>
+
+                                        <p class="is-size-6 f_bozon_r has-text-right">Todo lo que necesitas… a pasos de tu hogar <br>
+                                            ¿Quieres pasar una tarde en la playa o comer en <br>los mejores restaurantes? Conoce tus nuevos <br>
+                                            lugares favoritos de Iquique.</p>
+                                    </div>
+
+                                </div>
+
+
+                                <div class="columns is-vcentered has-text-centered">
+                                    <div class="column has-text-white  ">
+                                        <img src="<?php echo get_template_directory_uri();?>/assets/img/mapa.png" alt="play">
+                                    </div>
+
+                                </div>
+
+
+                                <div class="columns has-text-left"> 
+                                    <div class="column has-text-white  f_ml fs-14">
+                                        <p class="interlineado-2 has-text-success">Puntos Urbanos</p>
+                                        <ul>
+                                            <li><img src="<?php echo get_template_directory_uri();?>/assets/img/BULLETS.svg" class="alinea-t-i" width="25px" alt="play">1 &nbsp Caleta Cavancha</li>
+                                            <li><img src="<?php echo get_template_directory_uri();?>/assets/img/BULLETS.svg" class="alinea-t-i" width="25px" alt="play">2 &nbsp Playa Cavancha</li>
+                                            <li><img src="<?php echo get_template_directory_uri();?>/assets/img/BULLETS.svg" class="alinea-t-i" width="25px" alt="play">3 &nbsp Dreams Iquique</li>
+                                            <li><img src="<?php echo get_template_directory_uri();?>/assets/img/BULLETS.svg" class="alinea-t-i" width="25px" alt="play">4 &nbsp Estadio Municipal</li>
+                                            <li><img src="<?php echo get_template_directory_uri();?>/assets/img/BULLETS.svg" class="alinea-t-i" width="25px" alt="play">5 &nbsp Jumbo</li>
+                                            <li><img src="<?php echo get_template_directory_uri();?>/assets/img/BULLETS.svg" class="alinea-t-i" width="25px" alt="play">6 &nbsp Lider</li>
+                                            <li><img src="<?php echo get_template_directory_uri();?>/assets/img/BULLETS.svg" class="alinea-t-i" width="25px" alt="play">7 &nbsp Mall PLaza</li>
+                                        </ul>                                     
+                                    </div>
+                                    <div class="column has-text-white  f_ml fs-14">
+                                        <p class="interlineado-2 has-text-success">Hoteles</p>
+                                        <ul>
+                                            <li><img src="<?php echo get_template_directory_uri();?>/assets/img/BULLETS.svg" class="alinea-t-i" width="25px" alt="play">8 &nbsp Hotel Cavancha</li>
+                                            <li><img src="<?php echo get_template_directory_uri();?>/assets/img/BULLETS.svg" class="alinea-t-i" width="25px" alt="play">9 &nbsp Palm Hostal</li>
+                                            <li><img src="<?php echo get_template_directory_uri();?>/assets/img/BULLETS.svg" class="alinea-t-i" width="25px" alt="play">10 &nbsp Terrado</li>
+                                            <li><img src="<?php echo get_template_directory_uri();?>/assets/img/BULLETS.svg" class="alinea-t-i" width="25px" alt="play">11 &nbsp Hilton Garden</li>
+                                            <li><img src="<?php echo get_template_directory_uri();?>/assets/img/BULLETS.svg" class="alinea-t-i" width="25px" alt="play">12 &nbsp Holiday Inn</li>
+                                            <li><img src="<?php echo get_template_directory_uri();?>/assets/img/BULLETS.svg" class="alinea-t-i" width="25px" alt="play">13 &nbsp Terrado Club</li>
+                                        </ul> 
+                                    </div> 
+                                    <div class="column has-text-white f_ml fs-14">
+                                        <p class="interlineado-2 has-text-success">Restaurantes</p>
+                                        <ul>
+                                            <li><img src="<?php echo get_template_directory_uri();?>/assets/img/BULLETS.svg" class="alinea-t-i" width="25px" alt="play">14 &nbsp Club Nautico</li>
+                                            <li><img src="<?php echo get_template_directory_uri();?>/assets/img/BULLETS.svg" class="alinea-t-i" width="25px" alt="play">15 &nbsp Otaku Lounge</li>
+                                            <li><img src="<?php echo get_template_directory_uri();?>/assets/img/BULLETS.svg" class="alinea-t-i" width="25px" alt="play">16 &nbsp Cantaba La Rana</li>
+                                            <li><img src="<?php echo get_template_directory_uri();?>/assets/img/BULLETS.svg" class="alinea-t-i" width="25px" alt="play">17 &nbsp El Viejo y El Mar</li>
+                                            <li><img src="<?php echo get_template_directory_uri();?>/assets/img/BULLETS.svg" class="alinea-t-i" width="25px" alt="play">18 &nbsp Sidharta Lounge</li>
+                                            <li><img src="<?php echo get_template_directory_uri();?>/assets/img/BULLETS.svg" class="alinea-t-i" width="25px" alt="play">19 &nbsp Restaurante Arirang</li>
+                                        </ul>                          
+                                    </div>
+                                    <div class="column has-text-white  f_ml fs-14fg">
+                                        <p class="interlineado-2 has-text-success">Puntos Urbanos</p>
+                                        <ul>
+                                            <li><img src="<?php echo get_template_directory_uri();?>/assets/img/BULLETS.svg" class="alinea-t-i" width="25px" alt="play">20 &nbsp La Picá</li>
+                                            <li><img src="<?php echo get_template_directory_uri();?>/assets/img/BULLETS.svg" class="alinea-t-i" width="25px" alt="play">21 &nbsp Santorini Restobar</li>
+                                            <li><img src="<?php echo get_template_directory_uri();?>/assets/img/BULLETS.svg" class="alinea-t-i" width="25px" alt="play">22 &nbsp Check Point Restobar</li>
+                                            <li><img src="<?php echo get_template_directory_uri();?>/assets/img/BULLETS.svg" class="alinea-t-i" width="25px" alt="play">23 &nbsp Heladería El Pingüino</li>
+                                        </ul>                                    
+                                    </div>
+                                </div>
+
+
+                                <div class="columns">
+                                    <div class="column has-text-white  ">
+                                        <div class="is-flex c-ver">
+                                            <h2 class="orientacion">MASTERPLAN</h2>
+                                            <img src="<?php echo get_template_directory_uri();?>/assets/img/master_plan.png" alt="play">
+                                        </div>
+                                    </div>
+                                    <div class="column direccion is-justify-content-right">                        
+                                        <button class="cotizar f_bozon_r">Cotizar</button>  
+                                    </div>
+                                </div>
+
+                            
+
+                        </div>
+                    </div>
+
+
+
+
+
+                </div>
+            </div>
+
+
+
+            <!--<div class="columns is-vcentered  ">
                 <div class="column is-three-fifths is-offset-one-fifth has-text-white  ">
 
                     <div class="columns">
                         <div class="column is-5  is-offset-1 has-text-white  ">
-                            <p>pCAPITÁN ROBERTO PÉREZ 0704</p>
+                            <p class="f_ml">CAPITÁN ROBERTO PÉREZ 0704</p>
                         </div>
                         <div class="column is-6 has-text-white  ">
                             <div class="is-flex">
-                                <h4 class="is-size-3 is-size-5-mobile f_mh  espacio2">LUGARES</h4>
+                                <h4 class="is-size-3 is-size-5-mobile f_ml  espacio2">LUGARES</h4>
                                 <img class="arrow-blue is-centered-mobile" src="<?php echo get_template_directory_uri();?>/assets/img/arrow_blue.png">
                             </div>
-                            <h4 class="is-size-3 is-size-5-mobile  f_mh  espacio2">DE INTERÉS</h4>
+                            <h4 class="is-size-3 is-size-5-mobile f_ml  espacio2">DE INTERÉS</h4>
 
-                            <p class="is-size-13" >Todo lo que necesitas… a pasos de tu hogar
+                            <p class="is-size-13 f_bozon_r">Todo lo que necesitas… a pasos de tu hogar
                                 ¿Quieres pasar una tarde en la playa o comer en los mejores restaurantes? Conoce tus nuevos
                                 lugares favoritos de Iquique.</p>
                         </div>
@@ -122,7 +250,7 @@
 
 
                     <div class="columns is-vcentered has-text-centered">
-                        <div class="column has-text-white  ">
+                        <div class="column has-text-white  f_ml">
                         Caleta Cavancha
                         Playa Cavancha
                         Dreams Iquique
@@ -131,7 +259,7 @@
                         Lider
                         Mall PLaza
                         </div>
-                        <div class="column has-text-white  ">
+                        <div class="column has-text-white  f_ml">
                         Hotel Cavancha
                         Palm Hostal
                         Terrado
@@ -140,7 +268,7 @@
                         Terrado Club
                         </div>
 
-                        <div class="column has-text-white  ">
+                        <div class="column has-text-white  f_ml">
                         Club Nautico
                         Otaku Lounge
                         Cantaba La Rana
@@ -148,7 +276,7 @@
                         Sidharta Lounge
                         Restaurante Arirang
                         </div>
-                        <div class="column has-text-white  ">
+                        <div class="column has-text-white  f_ml">
                         La Picá
                         Santorini Restobar
                         Check Point Restobar
@@ -162,17 +290,17 @@
 
                     <div class="columns is-vcentered has-text-centered">
                         <div class="column has-text-white  ">
-                        <img src="<?php echo get_template_directory_uri();?>/assets/img/master_plan.png" alt="play">
+                            <img src="<?php echo get_template_directory_uri();?>/assets/img/master_plan.png" alt="play">
                         </div>
                         <div class="column has-text-white  ">
-                        <button class="cotizar"><a class="enlace-cotizar f_bozon_r" href="#">Cotizar</a></button>  
+                            <button class="cotizar"><a class="enlace-cotizar f_bozon_r" href="#">Cotizar</a></button>  
                         </div>
                     </div>
 
                     
 
                 </div>
-            </div>
+            </div>-->
 
         </div>
     </div>
