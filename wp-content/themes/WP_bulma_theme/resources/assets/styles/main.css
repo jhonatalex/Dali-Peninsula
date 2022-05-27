@@ -9642,8 +9642,62 @@ label.panel-block:hover {
   line-height: 42px;
 }
 
+.interlineado-3 {
+  line-height: 65px;
+}
+
 .espaciado {
   margin-right: 3px;
+}
+
+.pt-60 {
+  padding-top: 60px;
+}
+
+.vertical-align {
+  vertical-align: top;
+}
+
+.direccion {
+  display: flex;
+  align-items: flex-end;
+}
+
+.orientacion {
+  transform: rotate(-90deg);
+}
+
+.m-negativo {
+  margin-left: -50px;
+}
+
+.c-ver {
+  display: block;
+  text-align: center;
+}
+
+.pt-full-34 {
+  padding-top: 34%;
+}
+
+.pr-10 {
+  padding-right: 10px;
+}
+
+.ml-30 {
+  margin-left: 30px;
+}
+
+.mr-30 {
+  margin-right: 30px;
+}
+
+.alinea-t-i {
+  vertical-align: middle;
+}
+
+.fs-14 {
+  font-size: 14px;
 }
 
 .has-background-grey-2 {
@@ -9790,6 +9844,10 @@ label.panel-block:hover {
 
 .pt-full-50 {
   padding-top: 16%;
+}
+
+.pt-full-25 {
+  padding-top: 125%;
 }
 
 .pt-full-10 {
@@ -10004,6 +10062,14 @@ label.panel-block:hover {
   margin-left: 5px;
   width: 15px;
   height: 36px;
+}
+
+#header-proyecto {
+  background-image: url("../../assets/img/perspectiva_dia.png");
+  background-color: rgba(3, 3, 3, 0.425);
+  background-size: cover;
+  height: 120vh;
+  z-index: 0;
 }
 
 #header-terminaciones {
