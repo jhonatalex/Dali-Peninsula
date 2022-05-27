@@ -30,18 +30,18 @@
             </div>
         </div>
         <div id="navbarExampleTransparentExample" class="navbar-menu">
-            <div class="flex-container">
+            <div class="flex-container pl-10">
 
                 <div class="site-branding">
                     <img src="<?php echo get_template_directory_uri();?>/assets/img/logo_loga.png" alt="Loga Inmobiliaria" class="img-max-50">
                 </div>
                
-                <div class="main-navigatio is-flex Font_Neutra ">
-                    <a class="navbar-item  is-size-6 Font_Neutra" href="#header">HOME</a>
-                    <a class="navbar-item  is-size-6 Font_Neutra" href="#header">PROYECTO</a>
-                    <a class="navbar-item  is-size-6 Font_Neutra" href="/">TERMINACIONES</a>
-                    <a class="navbar-item  is-size-6 Font_Neutra" href="/">DEPTO. A </a>
-                    <a class="navbar-item  is-size-6 Font_Neutra" href="#contacto">CONTACTO</a>
+                <div class="main-navigatio is-flex f_neutra_bold has-text-black">
+                    <a class="navbar-item  is-size-6 " href="#header">HOME</a>
+                    <a class="navbar-item  is-size-6 " href="/proyecto/">PROYECTO</a>
+                    <a class="navbar-item  is-size-6 " href="http://localhost/ByL/Dali-Peninsula/terminaciones/">TERMINACIONES</a>
+                    <a class="navbar-item  is-size-6 " href="http://localhost/ByL/Dali-Peninsula/depto-a/">DEPTO. A </a>
+                    <a class="navbar-item  is-size-6 " href="#contacto">CONTACTO</a>
                 </div>    
                
                 <div id="logo-desktop" class=" logo-menu">
