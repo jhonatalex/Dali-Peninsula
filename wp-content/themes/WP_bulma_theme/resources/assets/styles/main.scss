@@ -162,6 +162,24 @@ padding-top: 40px;
     margin-top: 100px;
 }
 
+.mt-150{
+    margin-top: 150px;
+}
+
+.mt-60{
+    margin-top: 60px;
+}
+
+.mt-40-plantas{
+    margin-top: 40px;
+}
+
+
+.mt-60-negativo{
+    margin-top: -10%;
+}
+
+
 .pt-full-50{
  padding-top: 16%;
 }
@@ -173,6 +191,13 @@ padding-top: 40px;
 
 .pt-full-10{
     padding-top: 5%;
+}
+
+.pl-10{
+    padding-top: 8px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 8px;
 }
 
 .espacio4{
@@ -275,18 +300,25 @@ width: 100%;
 
 
  
-
 #piloto-virtual{
     background-image:url("../../assets/img/piloto_virtua.png");
     background-color:rgba(3, 3, 3, 0.425);
+    //filter: brightness(50%); // Más oscura
     background-size: cover;
     height:120vh;
     padding-top: 15%;
-    z-index: 0;
 }
 
-#piloto-virtual .container{
-    z-index: 9999;
+.brillo{
+    filter: brightness(100%); // Más oscura
+    
+}
+
+.button-play:hover{
+    cursor: pointer;
+    transform: translateY(-5px);
+    border-radius: 70px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
 }
 
 .button-transparent{
@@ -305,7 +337,31 @@ width: 100%;
 }
 
 
-#perspectiva{
+
+.disponibilidad{
+    width: 35%;
+    padding: 10px 50px;
+    border-top: 1px solid #ffff;
+    border-bottom: 1px solid #ffff;
+}
+
+
+
+
+
+
+
+
+
+.perspectiva-dia{
+    background-image:url("../../assets/img/perspectiva_dia.png");
+    background-color:rgba(3, 3, 3, 0.425);
+    background-size: cover;
+    height:120vh;
+    z-index: 0;
+}
+
+.perspectiva-noche{
     background-image:url("../../assets/img/perspectiva_noche.png");
     background-color:rgba(3, 3, 3, 0.425);
     background-size: cover;
@@ -325,6 +381,50 @@ width: 100%;
     margin-top:2%;
     font-size: 10pt;
 }
+
+
+.container-btn-mode{
+    
+    cursor: pointer;
+    z-index: 2;
+    
+  }
+  .btn-mode{
+    display: inline-block;
+    margin: 0;
+    width: 50px;
+    height: 30px;
+    border:2px solid black;
+    transition: background-color .5s;
+  }
+  .btn-mode i {
+    display: block;
+    font-size: 17px;
+    text-align: center;
+    line-height: 30px;
+  }
+  .btn-mode.sun{
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-right: 1px solid transparent;
+    margin-right: -5px;
+  }
+  .btn-mode.moon{
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+  }
+  .active{
+    background-color:black;
+    color:#ffcd5c !important;
+  }
+
+
+
+
+
+
+
+
 
 .button-blue{
     background-color: #0091B1;
@@ -352,6 +452,9 @@ width: 100%;
     border-radius: 0px;
 }
 
+.imagen-bottom-pisos{
+    margin-left: 10px;
+}
 
 
 
@@ -420,9 +523,9 @@ width: 100%;
 
 
  .arrow-blue{
-     margin-left:5px;
+     margin-left:15px;
      width: 15px;
-     height:36px
+     height:30px
  }
 
 
@@ -464,12 +567,10 @@ width: 100%;
     background: #000;
     border-width: 2px;
     border-color: #3aa9ac;
-}
-
-.cotizar .enlace-cotizar{
-    font-size: 24px;
+    padding: 10px 50px;
     color: #fff;
-    padding: 15px 40px; 
+    font-size: 20px;
+    text-align: center;
 }
 
 //    PILOTO 360°
@@ -485,6 +586,10 @@ width: 100%;
     margin-top: 25%;
 }
 
+.mt-20{
+    margin-top: 20%;
+}
+
 .mt-40{
     margin-top: 42%;
 }
@@ -493,11 +598,10 @@ width: 100%;
     border-radius: 0;
     background: #fff;
     border-width: 1px;
-    border-color: #ccc;
+    font-family: "f_bozon_r";
+    font-size: 14px;
+    color: #000;
+    padding: 5px 50px;
 }
 
-.cotizar-1 .enlace-cotizar-1{
-    font-size: 20px;
-    color: #000;
-    padding: 10px 30px; 
-}
+

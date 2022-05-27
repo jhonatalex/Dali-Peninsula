@@ -30,7 +30,7 @@
             </div>
         </div>
         <div id="navbarExampleTransparentExample" class="navbar-menu">
-            <div class="flex-container">
+            <div class="flex-container pl-10">
 
                 <div class="site-branding">
                     <img src="<?php echo get_template_directory_uri();?>/assets/img/logo_loga.png" alt="Loga Inmobiliaria" class="img-max-50">

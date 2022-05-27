@@ -1,0 +1,177 @@
+﻿<krpano version="1.20.9" title="Fachada_Terrazas Loga">
+
+	<include url="skin/vtourskin.xml" />
+
+	<!-- customize skin settings: maps, gyro, webvr, thumbnails, tooltips, layout, design, ... -->
+	<skin_settings maps="false"
+	               maps_type="google"
+	               maps_bing_api_key=""
+	               maps_google_api_key=""
+	               maps_zoombuttons="false"
+	               maps_loadonfirstuse="true"
+	               gyro="true"
+	               gyro_keeplookingdirection="false"
+	               webvr="true"
+	               webvr_keeplookingdirection="true"
+	               webvr_prev_next_hotspots="true"
+	               autotour="false"
+	               littleplanetintro="false"
+	               followmousecontrol="false"
+	               title="true"
+	               thumbs="true"
+	               thumbs_width="120" thumbs_height="80" thumbs_padding="10" thumbs_crop="0|40|240|160"
+	               thumbs_opened="true"
+	               thumbs_text="false"
+	               thumbs_dragging="true"
+	               thumbs_onhoverscrolling="false"
+	               thumbs_scrollbuttons="false"
+	               thumbs_scrollindicator="false"
+	               thumbs_loop="false"
+	               tooltips_buttons="false"
+	               tooltips_thumbs="false"
+	               tooltips_hotspots="true"
+	               tooltips_mapspots="false"
+	               deeplinking="false"
+	               loadscene_flags="MERGE"
+	               loadscene_blend="OPENBLEND(0.5, 0.0, 0.75, 0.05, linear)"
+	               loadscene_blend_prev="SLIDEBLEND(0.5, 180, 0.75, linear)"
+	               loadscene_blend_next="SLIDEBLEND(0.5,   0, 0.75, linear)"
+	               loadingtext=""
+	               layout_width="100%"
+	               layout_maxwidth="814"
+	               controlbar_width="-24"
+	               controlbar_height="40"
+	               controlbar_offset.normal="30"
+	               controlbar_offset.mobile="20"
+	               controlbar_offset_closed="-40"
+	               controlbar_overlap="0"
+	               design_skin_images="vtourskin_light.png"
+	               design_bgcolor="0x2D3E50"
+	               design_bgalpha="0.0"
+	               design_bgborder="0,0,1,0 0xFFFFFF 1"
+	               design_bgroundedge="0"
+	               design_bgshadow="0"
+	               design_thumbborder_bgborder="1 0xFFFFFF 0.8"
+	               design_thumbborder_padding="0"
+	               design_thumbborder_bgroundedge="0"
+	               design_text_css="color:#FFFFFF; font-family:Arial; font-weight:lighter;"
+	               design_text_shadow="0"
+	               />
+
+
+	<!--
+	    For an alternative skin design either change the <skin_settings> values 
+	    from above or optionally include one of the predefined designs from below.
+	-->
+	<!-- <include url="skin/vtourskin_design_flat_light.xml"  /> -->
+	<!-- <include url="skin/vtourskin_design_glass.xml"       /> -->
+	<!-- <include url="skin/vtourskin_design_ultra_light.xml" /> -->
+	<!-- <include url="skin/vtourskin_design_117.xml"         /> -->
+	<!-- <include url="skin/vtourskin_design_117round.xml"    /> -->
+	<!-- <include url="skin/vtourskin_design_black.xml"       /> -->
+
+
+	<!-- startup action - load the first scene -->
+	<action name="startup" autorun="onstart">
+		if(startscene === null OR !scene[get(startscene)], copy(startscene,scene[0].name); );
+		loadscene(get(startscene), null, MERGE);
+		if(startactions !== null, startactions() );
+	</action>
+
+
+	
+	<scene name="scene_LD_VP_Post" title="Fachada 360" onstart="" thumburl="panos/LD_VP_Post.tiles/thumb.jpg" lat="" lng="" heading="">
+		
+		<control bouncinglimits="calc:image.cube ? true : false" />
+
+		<view hlookat="-49.113" vlookat="5.251" fovtype="MFOV" fov="120.000" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="auto" />
+
+		<preview url="panos/LD_VP_Post.tiles/preview.jpg" />
+
+		<image>
+			<cube url="panos/LD_VP_Post.tiles/%s/l%l/%v/l%l_%s_%v_%h.jpg" multires="512,768,1600" />
+		</image>
+		<hotspot name="spot1" style="skin_hotspotstyle" ath="-25.060" atv="26.740" linkedscene="scene_terraza_a_1_10_post" />
+		<hotspot name="spot2" style="skin_hotspotstyle" ath="-25.007" atv="19.367" linkedscene="scene_terraza_a_1_15_post" />
+		<hotspot name="spot3" style="skin_hotspotstyle" ath="-24.748" atv="12.257" linkedscene="scene_terraza_a_1_20_post" />
+		<hotspot name="spot4" style="skin_hotspotstyle" ath="-24.500" atv="4.968" linkedscene="scene_terraza_a_1_30_post" />
+		<hotspot name="spot5" style="skin_hotspotstyle" ath="-24.834" atv="-3.779" linkedscene="scene_terraza_a_1_40_post" />
+
+	</scene>
+
+	<scene name="scene_Terraza_A_1_10_Post" title="Vista Piso 3 / Depto. 31 - Tipo A" onstart="" thumburl="panos/Terraza_A_1_10_Post.tiles/thumb.jpg" lat="" lng="" heading="">
+		
+		<control bouncinglimits="calc:image.cube ? true : false" />
+
+		<view hlookat="203.014" vlookat="4.418" fovtype="MFOV" fov="120.000" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="auto" />
+
+		<preview url="panos/Terraza_A_1_10_Post.tiles/preview.jpg" />
+
+		<image>
+			<cube url="panos/Terraza_A_1_10_Post.tiles/%s/l%l/%v/l%l_%s_%v_%h.jpg" multires="512,768" />
+		</image>
+		<hotspot name="spot1" style="skin_hotspotstyle" ath="110.160" atv="-7.834" linkedscene="scene_terraza_a_1_15_post" />
+
+	</scene>
+
+	<scene name="scene_Terraza_A_1_15_Post" title="Vista Piso 6 / Depto. 61 - Tipo A" onstart="" thumburl="panos/Terraza_A_1_15_Post.tiles/thumb.jpg" lat="" lng="" heading="">
+		
+		<control bouncinglimits="calc:image.cube ? true : false" />
+
+		<view hlookat="97.694" vlookat="12.141" fovtype="MFOV" fov="120.000" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="auto" />
+
+		<preview url="panos/Terraza_A_1_15_Post.tiles/preview.jpg" />
+
+		<image>
+			<cube url="panos/Terraza_A_1_15_Post.tiles/%s/l%l/%v/l%l_%s_%v_%h.jpg" multires="512,768" />
+		</image>
+		<hotspot name="spot1" style="skin_hotspotstyle" ath="-159.651" atv="-9.509" linkedscene="scene_terraza_a_1_20_post" />
+
+	</scene>
+
+	<scene name="scene_Terraza_A_1_20_Post" title="Vista Piso 9 / Depto. 91 - Tipo A " onstart="" thumburl="panos/Terraza_A_1_20_Post.tiles/thumb.jpg" lat="" lng="" heading="">
+		
+		<control bouncinglimits="calc:image.cube ? true : false" />
+
+		<view hlookat="139.744" vlookat="12.341" fovtype="MFOV" fov="120.000" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="auto" />
+
+		<preview url="panos/Terraza_A_1_20_Post.tiles/preview.jpg" />
+
+		<image>
+			<cube url="panos/Terraza_A_1_20_Post.tiles/%s/l%l/%v/l%l_%s_%v_%h.jpg" multires="512,768" />
+		</image>
+		<hotspot name="spot1" style="skin_hotspotstyle" ath="-165.229" atv="-11.929" linkedscene="scene_terraza_a_1_30_post" />
+
+	</scene>
+
+	<scene name="scene_Terraza_A_1_30_Post" title="Vista Piso 12 / Depto. 121 - Tipo A" onstart="" thumburl="panos/Terraza_A_1_30_Post.tiles/thumb.jpg" lat="" lng="" heading="">
+		
+		<control bouncinglimits="calc:image.cube ? true : false" />
+
+		<view hlookat="151.927" vlookat="7.212" fovtype="MFOV" fov="120.000" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="auto" />
+
+		<preview url="panos/Terraza_A_1_30_Post.tiles/preview.jpg" />
+
+		<image>
+			<cube url="panos/Terraza_A_1_30_Post.tiles/%s/l%l/%v/l%l_%s_%v_%h.jpg" multires="512,768" />
+		</image>
+		<hotspot name="spot1" style="skin_hotspotstyle" ath="124.302" atv="-0.814" linkedscene="scene_terraza_a_1_40_post" />
+
+	</scene>
+
+	<scene name="scene_Terraza_A_1_40_Post" title="Vista Piso 15 / Depto. 151 - Tipo A" onstart="" thumburl="panos/Terraza_A_1_40_Post.tiles/thumb.jpg" lat="" lng="" heading="">
+		
+		<control bouncinglimits="calc:image.cube ? true : false" />
+
+		<view hlookat="189.481" vlookat="-1.544" fovtype="MFOV" fov="120.000" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="auto" />
+
+		<preview url="panos/Terraza_A_1_40_Post.tiles/preview.jpg" />
+
+		<image>
+			<cube url="panos/Terraza_A_1_40_Post.tiles/%s/l%l/%v/l%l_%s_%v_%h.jpg" multires="512,768" />
+		</image>
+		<hotspot name="spot1" style="skin_hotspotstyle" ath="147.694" atv="-11.122" linkedscene="scene_ld_vp_post" />
+
+	</scene>
+
+</krpano>
