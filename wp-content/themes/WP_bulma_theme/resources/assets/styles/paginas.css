@@ -33,6 +33,11 @@
 
 .orientacion {
   transform: rotate(-90deg);
+  margin-left: 13%;
+}
+
+.master-plan {
+  margin-left: -50%;
 }
 
 .m-negativo {

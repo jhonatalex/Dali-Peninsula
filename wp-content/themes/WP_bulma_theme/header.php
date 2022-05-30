@@ -37,11 +37,11 @@
                 </div>
                
                 <div class="main-navigatio is-flex f_neutra_bold has-text-black">
-                    <a class="navbar-item  is-size-6 " href="#header">HOME</a>
-                    <a class="navbar-item  is-size-6 " href="/proyecto/">PROYECTO</a>
-                    <a class="navbar-item  is-size-6 " href="http://localhost/ByL/Dali-Peninsula/terminaciones/">TERMINACIONES</a>
-                    <a class="navbar-item  is-size-6 " href="http://localhost/ByL/Dali-Peninsula/depto-a/">DEPTO. A </a>
-                    <a class="navbar-item  is-size-6 " href="#contacto">CONTACTO</a>
+                    <a class="navbar-item  is-size-6 " href="/ByL/Dali-Peninsula/#header">HOME</a>
+                    <a class="navbar-item  is-size-6 " href="/ByL/Dali-Peninsula/proyecto/">PROYECTO</a>
+                    <a class="navbar-item  is-size-6 " href="/ByL/Dali-Peninsula/terminaciones/">TERMINACIONES</a>
+                    <a class="navbar-item  is-size-6 " href="/ByL/Dali-Peninsula/depto-a/">DEPTO. A </a>
+                    <a class="navbar-item  is-size-6 " href="/ByL/Dali-Peninsula/#SeccionContacto">CONTACTO</a>
                 </div>    
                
                 <div id="logo-desktop" class=" logo-menu">

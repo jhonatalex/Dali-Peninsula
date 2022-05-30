@@ -20,7 +20,7 @@
 
 <!-- SECCION 1 HEADER-->
 <section class="hero" id="header-terminaciones">
-    <div class="hero-body">
+    <div class="hero-body brillo2">
         <div class="container"> 
             <div class="columns is-centered has-text-white" >
                 <div class="column is-5  is-offset-5  has-text-right  pt-full-20">

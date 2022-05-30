@@ -17,7 +17,7 @@
 
 <!-- SECCION 1 HEADER-->
 <section class="hero" id="header">
-    <div class="hero-body">
+    <div class="hero-body brillo1">
         <div class="container"> 
             <div class="columns is-centered " id="header_title" >
                 <div class="column  title_header has-text-centered  ">
@@ -61,11 +61,9 @@
 <!-- SECCION 3 PILOTO VIRTUAL -->
 
 <section id="piloto-virtual">
-    <div class="hero-body" >
-        <div class="container brillo">
-
-            <div class="columns is-vcentered">
-
+    <div class="hero-body brillo2" >
+        <div class="container ">
+            <div class="columns is-vcentered pt-15">
                 <div class="column is-5 is-offset-1-desktop pt-full-10 has-text-centered-mobile">
                      <img  class="button-play" id="buttom-piloto-virtual" src="<?php echo get_template_directory_uri();?>/assets/img/buttom_play.png" alt="play">
                 </div>

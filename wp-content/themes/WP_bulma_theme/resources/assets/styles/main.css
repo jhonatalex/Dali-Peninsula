@@ -9665,6 +9665,11 @@ label.panel-block:hover {
 
 .orientacion {
   transform: rotate(-90deg);
+  margin-left: 13%;
+}
+
+.master-plan {
+  margin-left: -50%;
 }
 
 .m-negativo {
@@ -9896,6 +9901,10 @@ label.panel-block:hover {
   padding: 5px 30px;
 }
 
+.navbar-item:hover {
+  color: none;
+}
+
 .navbar {
   background-color: rgba(255, 255, 255, 0.8);
   position: absolute;
@@ -9958,14 +9967,21 @@ label.panel-block:hover {
 
 #piloto-virtual {
   background-image: url("../../assets/img/piloto_virtua.png");
-  background-color: rgba(3, 3, 3, 0.425);
-  background-size: cover;
   height: 120vh;
+}
+
+.pt-15 {
   padding-top: 15%;
 }
 
-.brillo {
-  filter: brightness(100%);
+.brillo1 {
+  background-color: rgba(0, 0, 0, 0.2);
+  height: 120vh;
+}
+
+.brillo2 {
+  background-color: rgba(0, 0, 0, 0.6);
+  height: 120vh;
 }
 
 .button-play:hover {
@@ -10214,5 +10230,10 @@ label.panel-block:hover {
   border-color: #ccc;
   font-size: 20px;
   color: #000;
-  padding: 5px 50px;
+  padding: 10px 30px;
+}
+
+.zoom {
+  transition: transform .2s;
+  transform: scale(1.5);
 }

@@ -112,15 +112,12 @@ $size-1: 3.5rem;
     font-style:italic;
  }
 
-
-
 .f_sinl {
    font-family: "f_sinl";
 }
 .f_sinm {
    font-family: "f_sinm";
 }
-
 
 
 @font-face {
@@ -188,7 +185,6 @@ padding-top: 40px;
     padding-top: 125%;
    }
 
-
 .pt-full-10{
     padding-top: 5%;
 }
@@ -220,6 +216,13 @@ padding-top: 40px;
     border-left: 2px solid #020202;
     height:5px;
     padding: 5px 30px;
+
+}
+
+
+.navbar-item:hover{
+    
+   color:none;
 
 }
 
@@ -302,15 +305,25 @@ width: 100%;
  
 #piloto-virtual{
     background-image:url("../../assets/img/piloto_virtua.png");
-    background-color:rgba(3, 3, 3, 0.425);
+    //background-color:rgba(3, 3, 3, 0.425);
     //filter: brightness(50%); // Más oscura
-    background-size: cover;
     height:120vh;
-    padding-top: 15%;
+
 }
 
-.brillo{
-    filter: brightness(100%); // Más oscura
+
+.pt-15{
+ padding-top: 15%;
+}
+.brillo1{
+    background-color: rgba(0,0,0,0.2);
+    height: 120vh;
+    
+}
+
+.brillo2{
+    background-color: rgba(0,0,0,0.6);
+    height: 120vh;
     
 }
 
@@ -610,6 +623,7 @@ width: 100%;
     padding: 10px 30px;
 }
 
-
-
-
+.zoom {
+    transition: transform .2s; 
+    transform: scale(1.5); 
+}

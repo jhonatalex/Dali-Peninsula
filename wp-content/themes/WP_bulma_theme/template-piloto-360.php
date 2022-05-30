@@ -20,7 +20,7 @@
 
 <!-- SECCION 1 HEADER-->
 <section class="hero" id="header-piloto-360">
-    <div class="hero-body">
+    <div class="hero-body brillo2">
         <div class="container"> 
             <div class="columns has-text-white "  >
                 <div class="column is-5 is-offset-1-desktop is-half mt-20">
@@ -33,7 +33,7 @@
                   
                 </div>
                 <div class="column is-6 has-text-right-desktop   has-text-centered-mobile mt-20">
-                    <img src="<?php echo get_template_directory_uri();?>/assets/img/buttom_play.png" alt="play">
+                <img  class="button-play" id="buttom-piloto-virtual" src="<?php echo get_template_directory_uri();?>/assets/img/buttom_play.png" alt="play">
                     <p class="f_bozon_r is-size-14 pt-40 " >No importa dónde estés, ni lo que estés haciendo...<br>
                     Visualiza tu nueva vida, desde la comodidad de tu hogar</p>
                     <button class="cotizar-1 f_bozon_r">Cotizar</button>
@@ -50,38 +50,45 @@
     <div class="container"> 
             <div class="columns is-centered is-multiline">
                 <div class="column is-5   has-text-white ">           
-                    <h2 class="f_ml mt-60 is-size-4">VIVE LA VIDA... ¡DESDE LOS MÁS ALTO</h2>
+                    <h2 class="f_ml mt-60 is-size-4">VIVE LA VIDA... ¡DESDE LOS MÁS ALTO!</h2>
                     <br>
                     <p class="f_bozon_r is-size-14">¿Quieres descubrir lo que tiene Dalí Península para ti? 
                     Conoce una experiencia única en diseño y arquitectura, con 
                     espacios perfectos para tu vida cerca del mar.
                     </p>
                 </div>
-             
+            
+            </div>  
 
-            </div>    
+            <div class="columns ">
+                    <div class="column has-text-right-desktop is-hidden-mobile ">   
+                     <h2 class="f_mbItalic mt-60 is-size-6 has-text-white">   IMÁGENES PILOTO TIPO A</h2>
+                    </div> 
+            </div> 
+         
+
 
             <div class="columns is-centered is-vcentered">
                  <div class="column is-2 has-text-white has-text-centered  ">
-                    <img src="<?php echo get_template_directory_uri();?>/assets/img/float-buttom.png" alt="play">
+                    <img id="zoom-galery" class="button-play" src="<?php echo get_template_directory_uri();?>/assets/img/float-buttom.png" alt="play">
                     <p>Haz un zoom acá y agranda tus expectativas</p>
                 </div>
                 <div class="column is-10 has-text-white has-text-centered  ">
 
                     <div id="galeria-piloto-tipo-a" >
 
-                        <div class="slide">
-                            <img src="<?php echo get_template_directory_uri();?>/assets/img/galeria_depto_tipo_A/Dalí_Dorm_Principal.jpg" alt="Edificio Dalí Loga"
+                        <div class="slide z">
+                            <img  class="" src="<?php echo get_template_directory_uri();?>/assets/img/galeria_depto_tipo_A/Dalí_Dorm_Principal.jpg" alt="Edificio Dalí Loga"
                             data-zoom-image="<?php echo get_template_directory_uri();?>/assets/img/galeria_depto_tipo_A/Dalí_Dorm_Principal.jpg">
                         </div>
 
-                        <div class="slide">
-                            <img src="<?php echo get_template_directory_uri();?>/assets/img/galeria_depto_tipo_A/Dalí_Living_Comedor.jpg" alt="Edificio Dalí Loga"
+                        <div class="slide z" >
+                            <img  class=""src="<?php echo get_template_directory_uri();?>/assets/img/galeria_depto_tipo_A/Dalí_Living_Comedor.jpg" alt="Edificio Dalí Loga"
                             data-zoom-image="<?php echo get_template_directory_uri();?>/assets/img/galeria_depto_tipo_A/Dalí_Living_Comedor.jpg">
                         </div>
                    
-                        <div class="slide">
-                            <img src="<?php echo get_template_directory_uri();?>/assets/img/galeria_depto_tipo_A/Dali_Terraza.jpg" alt="Edificio Dalí Loga"
+                        <div class="slide z">
+                            <img  class="" src="<?php echo get_template_directory_uri();?>/assets/img/galeria_depto_tipo_A/Dali_Terraza.jpg" alt="Edificio Dalí Loga"
                             data-zoom-image="<?php echo get_template_directory_uri();?>/assets/img/galeria_depto_tipo_A/Dali_Terraza.jpg">
                         </div>
                       
@@ -116,7 +123,7 @@
             
             
             <div class="columns is-centered">
-                <div class="column is-one-fifth">                        
+                <div class="column is-one-fifth has-text-centered-mobile">                        
                     <button class="cotizar f_bozon_r">Cotizar</button>  
                 </div>
             </div>
@@ -124,6 +131,23 @@
        </div>
     </div>
 </section>
+
+
+<div id="video-piloto-virtual" class="modal">
+  <div id="closeModalContent" class="modal-background"></div>
+    <div class="modal-content">
+      <iframe loading="lazy"
+        src="<?php echo get_template_directory_uri();?>/assets/video/LOGA_DALI_VIDEO_PILOTO_VIRTUAL.mp4"
+        width="100%" height="520px" frameborder="0"></iframe>
+      <button width="100px" height="60px" type="button"  class="modal-close"
+        aria-label="close">(X)
+        cerrar</button>
+    </div>
+  </div>
+</div>
+
+
+
 
 
 
