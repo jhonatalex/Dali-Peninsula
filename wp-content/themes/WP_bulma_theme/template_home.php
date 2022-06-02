@@ -78,7 +78,10 @@
                         <br>
                     <h4 class="f_mbItalic">  DEPTO. TIPO A <br> 3 DORMS. + 3 BAÑOS</h4>
 
-                    <button class="has-background-white  has-text-black padding-buttom-10 f_neutra">Cotizar</button>
+                    <a href="#SeccionContacto">
+                        <button class="has-background-white  has-text-black padding-buttom-10 f_neutra is-size-4">Cotizar</button>
+                    </a>
+                  
                 </div>
             </div>
 
@@ -160,7 +163,7 @@
         <div class="container">
         <div class="columns is-centered">
         
-            <div class="column is-4 is-offset-1-desktop has-text-white">
+            <div class="column is-4-desktop is-offset-1-desktop has-text-white">
                    <div class="is-flex">
                         <h4 class="is-size-3 is-size-5-mobile f_mh  espacio2">UN LUGAR</h4>
                         <img class="arrow-blue is-centered-mobile" src="<?php echo get_template_directory_uri();?>/assets/img/arrow_blue.png">
@@ -182,16 +185,16 @@
 
         </div>
         <div class="columns is-centered is-vcentered  ">
-            <div class="column is-11 is-offset-4-desktop has-text-white is-centered">
+            <div class="column is-6-desktop  has-text-white has-text-centered ">
                
-                <div id="dis-2dorm" class="disponibilidad has-text-centered is-centered">
+                <div id="dis-2dorm" class="disponibilidad has-text-centered ">
                     <p class="f_ml is-size-4 espacio3">DESDE UF 5.899*</p>
                 </div>
     
-                <div id="dis-3dorm" class="disponibilidad is-hidden has-text-centered is-centered">
+                <div id="dis-3dorm" class="disponibilidad is-hidden has-text-centered ">
                     <p class="f_ml is-size-4 espacio3">DESDE UF 6.466*</p>
                 </div>
-                <div id="dis-4dorm" class="disponibilidad  is-hidden has-text-centered is-centered">
+                <div id="dis-4dorm" class="disponibilidad  is-hidden has-text-centered ">
                     <p class="f_ml is-size-4 espacio3">DESDE UF 7.800*</p>
                 </div>
                 <br>
@@ -377,9 +380,9 @@
                     de Dalí Península. Disfruta de las mejores vistas del <br>norte.
                     ¡Sí, las mejores!<p>
 
-                   
-                    <button class="button-blue">Conoce más</button>
-                
+                    <a href="beta/Dali/proyecto">
+                        <button class="button-blue">Conoce más</button>
+                    </a>
                 </div>
 
          
@@ -405,7 +408,10 @@
                     <p class="is-size-14  f_bozon_r">Una pausa mirando el infinito mar de Iquique.<br>
                         Con Edificio Dalí Península los atardeceres serán<br>
                         parte de tu vida.<p>
-                    <button class="has-background-white  has-text-black padding-buttom-10 f_neutra " >Cotizar</button>
+
+                    <a href="#SeccionContacto">
+                        <button class="has-background-white  has-text-black padding-buttom-10 f_neutra is-size-4">Cotizar</button>
+                    </a>
                 </div>
 
                 <div class="column is-5 is-offset-1-desktop pt-full-50 has-text-centered-mobile">
@@ -472,7 +478,6 @@
         </div>
     </div>
 </section>
-
 
 
 

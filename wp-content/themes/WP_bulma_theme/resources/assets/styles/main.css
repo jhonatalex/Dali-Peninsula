@@ -9631,7 +9631,11 @@ label.panel-block:hover {
 }
 
 .pt-full-20 {
-  padding-top: 23%;
+  padding-top: 11%;
+}
+
+.pt-full-20-terminaciones {
+  padding-top: 22%;
 }
 
 .interlineado-1 {
@@ -9890,25 +9894,36 @@ label.panel-block:hover {
   letter-spacing: 3px;
 }
 
-.main-navigation {
-  display: block;
+.flex-container-navbar {
   width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: center;
+  height: 60px;
 }
 
 .navbar-item {
   border-left: 2px solid #020202;
   height: 5px;
   padding: 5px 30px;
+  text-decoration: none;
+  background: none;
+  color: black;
 }
 
 .navbar-item:hover {
-  color: none;
+  background-color: rgba(255, 255, 255, 0.8);
+  text-decoration: none;
+  color: black;
 }
 
 .navbar {
   background-color: rgba(255, 255, 255, 0.8);
   position: absolute;
   width: 100%;
+  color: black;
 }
 
 .img-max-50 {
@@ -9955,16 +9970,6 @@ label.panel-block:hover {
   background-color: rgba(0, 145, 177, 0.616);
 }
 
-.flex-container {
-  width: 100%;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: nowrap;
-  justify-content: space-between;
-  align-items: center;
-  height: 60px;
-}
-
 #piloto-virtual {
   background-image: url("../../assets/img/piloto_virtua.png");
   height: 120vh;
@@ -10007,7 +10012,6 @@ label.panel-block:hover {
 }
 
 .disponibilidad {
-  width: 35%;
   padding: 10px 50px;
   border-top: 1px solid #ffff;
   border-bottom: 1px solid #ffff;
@@ -10099,8 +10103,9 @@ label.panel-block:hover {
 }
 
 .padding-buttom-10 {
-  padding: 1px 35px;
+  padding: 0px 55px;
   border-radius: 0px;
+  height: 38px;
 }
 
 .imagen-bottom-pisos {
@@ -10188,10 +10193,6 @@ label.panel-block:hover {
   line-height: 24px;
 }
 
-.domoticaEnfocada {
-  text-align: right;
-}
-
 .cotizar {
   border-radius: 0;
   background: #000;
@@ -10236,4 +10237,175 @@ label.panel-block:hover {
 .zoom {
   transition: transform .2s;
   transform: scale(1.5);
+}
+
+.va-bottom {
+  align-items: flex-end;
+}
+
+.pb-25 {
+  padding-bottom: 25px;
+}
+
+.text-hover-ventana {
+  font-family: "f_neutra_bold";
+  color: black;
+  position: absolute;
+  margin-top: 2.3%;
+  margin-left: 2%;
+}
+
+.text-hover-piso {
+  font-family: "f_neutra_bold";
+  color: black;
+  position: absolute;
+  margin-top: -0.8%;
+  margin-left: 0.2%;
+}
+
+.text-hover-usb {
+  font-family: "f_neutra_bold";
+  color: black;
+  position: absolute;
+  margin-top: -4.9%;
+  margin-left: 9.2%;
+}
+
+.text-hover-ventana-2 {
+  font-family: "f_neutra_bold";
+  color: black;
+  position: absolute;
+  margin-top: 2.7%;
+  margin-left: 8.11%;
+}
+
+.text-hover-piso-2 {
+  font-family: "f_neutra_bold";
+  color: black;
+  position: absolute;
+  margin-top: -0.7%;
+  margin-left: 6.2%;
+}
+
+.text-baranda-terraza {
+  font-family: "f_neutra_bold";
+  color: black;
+  position: absolute;
+  margin-top: 3.0%;
+  margin-left: 2%;
+}
+
+.text-piso-terraza {
+  font-family: "f_neutra_bold";
+  color: black;
+  position: absolute;
+  margin-top: -1.7%;
+  margin-left: 5.2%;
+}
+
+.text-ventana-terraza {
+  font-family: "f_neutra_bold";
+  color: black;
+  position: absolute;
+  margin-top: 2.5%;
+  margin-left: 8.2%;
+}
+
+@media only screen and (max-width: 514px) {
+  .flex-container-navbar {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    height: 20%;
+    background-color: rgba(255, 255, 255, 0.815);
+  }
+  .navbar-item {
+    border-left: none;
+    height: 5px;
+    padding: 20px 5px 25px 5px;
+    text-decoration: none;
+    background: none;
+    color: black;
+  }
+  .navbar-burger {
+    color: black;
+    cursor: pointer;
+    display: block;
+    height: 3.25rem;
+    position: relative;
+    width: 3.25rem;
+    margin-left: auto;
+  }
+  .navbar-menu {
+    background-color: rgba(255, 255, 255, 0.781);
+  }
+  .logo-menu-mobile {
+    padding: 10px;
+    width: 116px;
+  }
+  .pl-10 {
+    padding-top: 0px;
+    padding-left: 10px;
+    padding-right: 0px;
+    padding-bottom: 8px;
+  }
+  #header {
+    background-image: url("../../assets/img/fondo_dali_header.png");
+    background-size: cover;
+    height: 60vh;
+  }
+  #piloto-virtual {
+    background-image: url("../../assets/img/piloto_virtua.png");
+    background-size: cover;
+    height: 80vh;
+  }
+  .perspectiva-dia {
+    background-image: url("../../assets/img/perspectiva_dia.png");
+    background-size: cover;
+    height: 80vh;
+  }
+  .perspectiva-noche {
+    background-image: url("../../assets/img/perspectiva_noche.png");
+    background-size: cover;
+    height: 80vh;
+  }
+  #cinemagraph {
+    background-image: url("../../assets/img/cinema_fondo.png");
+    background-size: cover;
+    height: 80vh;
+  }
+  #header-piloto-360 {
+    background-image: url("../../assets/img/living_piloto.png");
+    background-size: cover;
+    height: 80vh;
+  }
+  .mt-150 {
+    margin-top: 80px;
+  }
+  #header-terminaciones {
+    background-image: url("../../assets/img/room-_terminaciones.png");
+    background-color: #cccccc;
+    background-size: cover;
+    color: black;
+    height: 80vh;
+  }
+  #header-proyecto {
+    background-image: url("../../assets/img/perspectiva_dia.png");
+    background-color: rgba(3, 3, 3, 0.425);
+    background-size: cover;
+    height: 80vh;
+  }
+  .orientacion {
+    transform: rotate(-90deg);
+    margin-left: 0;
+  }
+  .master-plan {
+    margin-left: -70%;
+  }
+  .mt-20 {
+    margin-top: 7%;
+  }
 }

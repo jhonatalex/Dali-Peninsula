@@ -106,12 +106,12 @@
 
                                 <div class="columns">
                                     <div class="column is-7">
-                                        <p class="f_mmI is-size-5">DEPTOS. DEL PISO 16 CON AZOTEA PRIVADA <br>
+                                        <p class="f_mmI is-size-5">DEPTOS. DEL PISO 16 CON AZOTEA PRIVADA <br class="is-hidden-mobile">
                                             /QUINCHO + HOT TUB EN PISO 17</p>
                                     </div>
                                     <div class="column is-5">
-                                        <p class="is-size-6 f_bozon_r has-text-right">Todos nuestros departamentos cuentan con visa <br> privilegiada al mar.
-                                            Y queremos que pronto <br> la puedas ver con tus propios ojos.</p>
+                                        <p class="is-size-6 f_bozon_r has-text-right">Todos nuestros departamentos cuentan con visa <br class="is-hidden-mobile"> privilegiada al mar.
+                                            Y queremos que pronto <br class="is-hidden-mobile"> la puedas ver con tus propios ojos.</p>
                                     </div>
 
                                 </div>
@@ -130,8 +130,8 @@
                                         </div>
                                         <h4 class="is-size-2 is-size-5-mobile f_ml has-text-right espacio2">DE INTERÉS</h4>
 
-                                        <p class="is-size-6 f_bozon_r has-text-right">Todo lo que necesitas… a pasos de tu hogar <br>
-                                            ¿Quieres pasar una tarde en la playa o comer en <br>los mejores restaurantes? Conoce tus nuevos <br>
+                                        <p class="is-size-6 f_bozon_r has-text-right">Todo lo que necesitas… a pasos de tu hogar <br class="is-hidden-mobile">
+                                            ¿Quieres pasar una tarde en la playa o comer en <br class="is-hidden-mobile">los mejores restaurantes? Conoce tus nuevos <br class="is-hidden-mobile">
                                             lugares favoritos de Iquique.</p>
                                     </div>
 
@@ -193,15 +193,19 @@
                                 </div>
 
 
-                                <div class="columns">
-                                    <div class="column has-text-white  ">
+                                <div class="columns va-bottom">
+                                    <div class="column is-11-mobile has-text-white ">
                                         <div class="is-flex c-ver">
                                             <h2 class="orientacion f_mh is-size-2">MASTERPLAN</h2>
                                             <img  class="master-plan"src="<?php echo get_template_directory_uri();?>/assets/img/master_plan.png" alt="play">
                                         </div>
                                     </div>
-                                    <div class="column direccion is-justify-content-right">                        
-                                        <button class="cotizar f_bozon_r">Cotizar</button>  
+                                    <div class="column has-text-centered pb-10"> 
+                                        
+                                    <a href="beta/Dali/#SeccionContacto">
+                                       <button class="cotizar f_bozon_r">Cotizar</button>  
+                                    </a> 
+
                                     </div>
                                 </div>
 
