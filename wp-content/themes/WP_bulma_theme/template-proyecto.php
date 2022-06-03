@@ -32,10 +32,10 @@
                             personas que buscan lo mejor para su día a día.<p>
                         </div>
                         <div class="column interlineado-3 is-full has-text-right">
-                            <h2 class="f_mb is-size-3">EXCLUSIVIDAD</h2>
-                            <h3 class="f_ml">DISEÑO</h3>
-                            <h3 class="f_ml">MODERNIDAD</h3>                
-                            <h3 class="f_mmI">_______ TODO A TUS PIES</h3>
+                            <h2 class="f_ml is-size-3">EXCLUSIVIDAD</h2>
+                            <h3 class="f_ml is-size-3">DISEÑO</h3>
+                            <h3 class="f_ml is-size-3">MODERNIDAD</h3>                
+                            <h3 class="f_mmI is-size-5">_______ TODO A TUS PIES</h3>
                         </div>                        
                     </div>                      
                 </div>         
@@ -106,12 +106,12 @@
 
                                 <div class="columns">
                                     <div class="column is-7">
-                                        <p class="f_mmI is-size-5">DEPTOS. DEL PISO 16 CON AZOTEA PRIVADA <br>
+                                        <p class="f_mmI is-size-5">DEPTOS. DEL PISO 16 CON AZOTEA PRIVADA <br class="is-hidden-mobile">
                                             /QUINCHO + HOT TUB EN PISO 17</p>
                                     </div>
                                     <div class="column is-5">
-                                        <p class="is-size-6 f_bozon_r has-text-right">Todos nuestros departamentos cuentan con visa <br> privilegiada al mar.
-                                            Y queremos que pronto <br> la puedas ver con tus propios ojos.</p>
+                                        <p class="is-size-6 f_bozon_r has-text-right">Todos nuestros departamentos cuentan con visa <br class="is-hidden-mobile"> privilegiada al mar.
+                                            Y queremos que pronto <br class="is-hidden-mobile"> la puedas ver con tus propios ojos.</p>
                                     </div>
 
                                 </div>
@@ -119,19 +119,19 @@
                                 <div class="columns pt-60">
                                     <div class="column is-7 is-size-5">
                                         <div class="is-flex">
-                                            <i class="fa-solid fa-location-dot pr-10"></i>
+                                            <i style="color:#005d75" class="fa-solid fa-location-dot pr-10"></i>
                                             <p class="f_ml">CAPITÁN ROBERTO PÉREZ 0704</p>
                                         </div>
                                     </div>
                                     <div class="column is-5">
                                         <div class="is-flex is-justify-content-right">
-                                            <img class="arrow-blue pr-10 is-centered-mobile" src="<?php echo get_template_directory_uri();?>/assets/img/arrow_blue_right.png">
+                                            <img class="arrow-blue alinea-t-i" src="<?php echo get_template_directory_uri();?>/assets/img/arrow_blue_right.png">
                                             <h4 class="is-size-2 is-size-5-mobile f_ml espacio2">LUGARES</h4>                                            
                                         </div>
                                         <h4 class="is-size-2 is-size-5-mobile f_ml has-text-right espacio2">DE INTERÉS</h4>
 
-                                        <p class="is-size-6 f_bozon_r has-text-right">Todo lo que necesitas… a pasos de tu hogar <br>
-                                            ¿Quieres pasar una tarde en la playa o comer en <br>los mejores restaurantes? Conoce tus nuevos <br>
+                                        <p class="is-size-6 f_bozon_r has-text-right">Todo lo que necesitas… a pasos de tu hogar <br class="is-hidden-mobile">
+                                            ¿Quieres pasar una tarde en la playa o comer en <br class="is-hidden-mobile">los mejores restaurantes? Conoce tus nuevos <br class="is-hidden-mobile">
                                             lugares favoritos de Iquique.</p>
                                     </div>
 
@@ -181,7 +181,7 @@
                                             <li><img src="<?php echo get_template_directory_uri();?>/assets/img/BULLETS.svg" class="alinea-t-i" width="25px" alt="play">19 &nbsp Restaurante Arirang</li>
                                         </ul>                          
                                     </div>
-                                    <div class="column has-text-white  f_ml fs-14fg">
+                                    <div class="column  has-text-white  f_ml fs-14">
                                         <p class="interlineado-2 has-text-success">Puntos Urbanos</p>
                                         <ul>
                                             <li><img src="<?php echo get_template_directory_uri();?>/assets/img/BULLETS.svg" class="alinea-t-i" width="25px" alt="play">20 &nbsp La Picá</li>
@@ -193,15 +193,19 @@
                                 </div>
 
 
-                                <div class="columns">
-                                    <div class="column has-text-white  ">
+                                <div class="columns va-bottom">
+                                    <div class="column is-11-mobile has-text-white ">
                                         <div class="is-flex c-ver">
-                                            <h2 class="orientacion">MASTERPLAN</h2>
-                                            <img src="<?php echo get_template_directory_uri();?>/assets/img/master_plan.png" alt="play">
+                                            <h2 class="orientacion f_mh is-size-2">MASTERPLAN</h2>
+                                            <img  class="master-plan"src="<?php echo get_template_directory_uri();?>/assets/img/master_plan.png" alt="play">
                                         </div>
                                     </div>
-                                    <div class="column direccion is-justify-content-right">                        
-                                        <button class="cotizar f_bozon_r">Cotizar</button>  
+                                    <div class="column has-text-centered pb-10"> 
+                                        
+                                    <a href="beta/Dali/#SeccionContacto">
+                                       <button class="cotizar f_bozon_r">Cotizar</button>  
+                                    </a> 
+
                                     </div>
                                 </div>
 
@@ -218,89 +222,6 @@
             </div>
 
 
-
-            <!--<div class="columns is-vcentered  ">
-                <div class="column is-three-fifths is-offset-one-fifth has-text-white  ">
-
-                    <div class="columns">
-                        <div class="column is-5  is-offset-1 has-text-white  ">
-                            <p class="f_ml">CAPITÁN ROBERTO PÉREZ 0704</p>
-                        </div>
-                        <div class="column is-6 has-text-white  ">
-                            <div class="is-flex">
-                                <h4 class="is-size-3 is-size-5-mobile f_ml  espacio2">LUGARES</h4>
-                                <img class="arrow-blue is-centered-mobile" src="<?php echo get_template_directory_uri();?>/assets/img/arrow_blue.png">
-                            </div>
-                            <h4 class="is-size-3 is-size-5-mobile f_ml  espacio2">DE INTERÉS</h4>
-
-                            <p class="is-size-13 f_bozon_r">Todo lo que necesitas… a pasos de tu hogar
-                                ¿Quieres pasar una tarde en la playa o comer en los mejores restaurantes? Conoce tus nuevos
-                                lugares favoritos de Iquique.</p>
-                        </div>
-
-                    </div>
-
-
-                    <div class="columns is-vcentered has-text-centered">
-                        <div class="column has-text-white  ">
-                        <img src="<?php echo get_template_directory_uri();?>/assets/img/mapa.png" alt="play">
-                        </div>
-
-                    </div>
-
-
-                    <div class="columns is-vcentered has-text-centered">
-                        <div class="column has-text-white  f_ml">
-                        Caleta Cavancha
-                        Playa Cavancha
-                        Dreams Iquique
-                        Estadio Municipal
-                        Jumbo
-                        Lider
-                        Mall PLaza
-                        </div>
-                        <div class="column has-text-white  f_ml">
-                        Hotel Cavancha
-                        Palm Hostal
-                        Terrado
-                        Hilton Garden
-                        Holiday Inn
-                        Terrado Club
-                        </div>
-
-                        <div class="column has-text-white  f_ml">
-                        Club Nautico
-                        Otaku Lounge
-                        Cantaba La Rana
-                        El Viejo y El Mar
-                        Sidharta Lounge
-                        Restaurante Arirang
-                        </div>
-                        <div class="column has-text-white  f_ml">
-                        La Picá
-                        Santorini Restobar
-                        Check Point Restobar
-                        Heladería El Pingüino
-                        </div>
-
-
-
-                    </div>
-
-
-                    <div class="columns is-vcentered has-text-centered">
-                        <div class="column has-text-white  ">
-                            <img src="<?php echo get_template_directory_uri();?>/assets/img/master_plan.png" alt="play">
-                        </div>
-                        <div class="column has-text-white  ">
-                            <button class="cotizar"><a class="enlace-cotizar f_bozon_r" href="#">Cotizar</a></button>  
-                        </div>
-                    </div>
-
-                    
-
-                </div>
-            </div>-->
 
         </div>
     </div>

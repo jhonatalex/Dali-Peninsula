@@ -18,10 +18,23 @@
 </head>
 <body>
 
+
+
+
+
+
+
+
+
+
+
+
+
+
     <nav id="site-navigation" role="navigation" class="navbar has-text-white p-13px has-background-white-light font-Metropolis_Light fixed">
         <div class="navbar-brand">
             <a class="is-hidden-desktop" href="#">
-                <img src="<?php echo get_template_directory_uri();?>/assets/img/logo_loga.png" alt="Loga Inmobiliaria" class="logo">
+                <img  class="logo-menu-mobile" src="<?php echo get_template_directory_uri();?>/assets/img/logo_loga.png" alt="Loga Inmobiliaria" >
             </a>
             <div class="navbar-burger burger" data-target="navbarExampleTransparentExample">
                 <span></span>
@@ -30,24 +43,37 @@
             </div>
         </div>
         <div id="navbarExampleTransparentExample" class="navbar-menu">
-            <div class="flex-container pl-10">
+            <div class="flex-container-navbar pl-10">
 
-                <div class="site-branding">
+                <div class="site-branding is-hidden-mobile">
                     <img src="<?php echo get_template_directory_uri();?>/assets/img/logo_loga.png" alt="Loga Inmobiliaria" class="img-max-50">
                 </div>
-               
-                <div class="main-navigatio is-flex f_neutra_bold has-text-black">
-                    <a class="navbar-item  is-size-6 " href="#header">HOME</a>
-                    <a class="navbar-item  is-size-6 " href="/proyecto/">PROYECTO</a>
-                    <a class="navbar-item  is-size-6 " href="http://localhost/ByL/Dali-Peninsula/terminaciones/">TERMINACIONES</a>
-                    <a class="navbar-item  is-size-6 " href="http://localhost/ByL/Dali-Peninsula/depto-a/">DEPTO. A </a>
-                    <a class="navbar-item  is-size-6 " href="#contacto">CONTACTO</a>
+               <!--
+                <div class="main-navigatio  f_neutra_bold has-text-black">
+                    <a class="navbar-item  is-size-6 " href="/ByL/Dali-Peninsula/#header">HOME</a>
+                    <a class="navbar-item  is-size-6 " href="/ByL/Dali-Peninsula/proyecto/">PROYECTO</a>
+                    <a class="navbar-item  is-size-6 " href="/ByL/Dali-Peninsula/terminaciones/">TERMINACIONES</a>
+                    <a class="navbar-item  is-size-6 " href="/ByL/Dali-Peninsula/depto-a/">DEPTO. A </a>
+                    <a class="navbar-item  is-size-6 " href="/ByL/Dali-Peninsula/#SeccionContacto">CONTACTO</a>
                 </div>    
+                -->
+                
+                <div class="main-navigation is-flex-desktop f_neutra_bold has-text-black">
+                    <a class="navbar-item  is-size-6 " href="/beta/Dali/#header">HOME</a>
+                    <a class="navbar-item  is-size-6 " href="/beta/Dali/proyecto/">PROYECTO</a>
+                    <a class="navbar-item  is-size-6 " href="/beta/Dali/terminaciones/">TERMINACIONES</a>
+                    <a class="navbar-item  is-size-6 " href="/beta/Dali/depto-a/">DEPTO. A </a>
+                    <a class="navbar-item  is-size-6 " href="/beta/Dali/#SeccionContacto">CONTACTO</a>
+                </div>    
+
+
+
+
                
-                <div id="logo-desktop" class=" logo-menu">
-                <a class="" href="#">
-                    <img src="<?php echo get_template_directory_uri();?>/assets//img/logo_dali.png" alt="Dali Peninsula" class="logo img-max-50">
-                </a>
+                <div id="logo-desktop" class="logo-menu is-hidden-mobile">
+                    <a class="" href="#">
+                        <img src="<?php echo get_template_directory_uri();?>/assets//img/logo_dali.png" alt="Dali Peninsula" class="logo img-max-50">
+                    </a>
                 </div>
             </div>
         </div>
