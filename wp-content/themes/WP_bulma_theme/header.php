@@ -48,16 +48,19 @@
                 <div class="site-branding is-hidden-mobile">
                     <img src="<?php echo get_template_directory_uri();?>/assets/img/logo_loga.png" alt="Loga Inmobiliaria" class="img-max-50">
                 </div>
-               <!--
-                <div class="main-navigatio  f_neutra_bold has-text-black">
+
+               
+                <div class="main-navigation is-flex-desktop f_ml_b has-text-black">
+
                     <a class="navbar-item  is-size-6 " href="/ByL/Dali-Peninsula/#header">HOME</a>
                     <a class="navbar-item  is-size-6 " href="/ByL/Dali-Peninsula/proyecto/">PROYECTO</a>
                     <a class="navbar-item  is-size-6 " href="/ByL/Dali-Peninsula/terminaciones/">TERMINACIONES</a>
                     <a class="navbar-item  is-size-6 " href="/ByL/Dali-Peninsula/depto-a/">DEPTO. A </a>
                     <a class="navbar-item  is-size-6 " href="/ByL/Dali-Peninsula/#SeccionContacto">CONTACTO</a>
+
                 </div>    
-                -->
                 
+               <!-- 
                 <div class="main-navigation is-flex-desktop f_neutra_bold has-text-black">
                     <a class="navbar-item  is-size-6 " href="/beta/Dali/#header">HOME</a>
                     <a class="navbar-item  is-size-6 " href="/beta/Dali/proyecto/">PROYECTO</a>
@@ -65,6 +68,7 @@
                     <a class="navbar-item  is-size-6 " href="/beta/Dali/depto-a/">DEPTO. A </a>
                     <a class="navbar-item  is-size-6 " href="/beta/Dali/#SeccionContacto">CONTACTO</a>
                 </div>    
+                -->
 
 
 

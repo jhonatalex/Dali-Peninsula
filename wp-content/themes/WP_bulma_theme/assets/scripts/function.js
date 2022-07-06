@@ -19,6 +19,7 @@ $(document).ready(function () {
 
    
 
+
     $(".btn-piso").on('click', function () {
  
         // control de botones
@@ -58,6 +59,7 @@ $(document).ready(function () {
 
 
 
+
      function changeTextPisos(text1,text2){
         $('#text-pisos').text(text1)
         $('#text-pisos-deptos').text(text2)
@@ -88,7 +90,6 @@ $(document).ready(function () {
 
     $('#zoom-galery').on('click', function () {
 
-        console.log("entro");
         $('.z').toggleClass('zoom');
 
     });
@@ -585,22 +586,265 @@ $('.baranda-3').hover(function() {
 
 
 
+$(".hover-cocina").hover(function () {
+ 
+   let index = $(this).attr("id");
+ 
+    switch (index) {
+       case "0": $("#text-cocina-refri").toggleClass('is-hidden')
+                                        .css("margin-top", " -2.1%")
+                                        .css("margin-left", "182px");
+          
+       break;
+       case "1":$("#text-cocina-grifo").toggleClass('is-hidden')
+                                        .css("margin-top", " -2.0%")
+                                        .css("margin-left", "353px");
+       break;
+       case "2":$("#text-cocina-tope").toggleClass('is-hidden')
+                                        .css("margin-top", " -2.0%")
+                                        .css("margin-left", "191px");
+           
+       break;
+       case "3":$("#text-cocina-lava").toggleClass('is-hidden')
+                                        .css("margin-top", " -2%")
+                                        .css("margin-left", "248px");
+         
+          
+       break;
+       case "4":$("#text-cocina-mueble").toggleClass('is-hidden')
+                                        .css("margin-top", " -2.55%")
+                                        .css("margin-left", "288px");
+ 
+       break;
+       case "5":$("#text-cocina-campana").toggleClass('is-hidden')
+                                        .css("margin-top", " -2.1%")
+                                        .css("margin-left", "391px");
+                        
+        break;
+       case "6":$("#text-cocina-horno").toggleClass('is-hidden')
+                                        .css("margin-top", " -2.05%")
+                                        .css("margin-left", "218px");
+                                                 
+       break;
+ 
+jQuery('.modal-close').click(function() {
+    jQuery('#video-piloto-virtual').removeClass('is-active');
+});
+ 
+       case "7":$("#text-cocina-encimera").toggleClass('is-hidden')
+                                        .css("margin-top", " -2.05%")
+                                        .css("margin-left", "274px");
+ 
+ 
+       break;
+       case "8":$("#text-cocina-mueble2").toggleClass('is-hidden')
+                                        .css("margin-top", " -1.5%")
+                                        .css("margin-left", "299px");
+ 
+       break;
+       case "9":$("#text-cocina-cubierto").toggleClass('is-hidden')
+                                           .css("margin-top", " -1.68%")
+                                           .css("margin-left", "322px");
+ 
+ 
+       break;
+       case "10":$("#text-cocina-olla").toggleClass('is-hidden')
+                                     .css("margin-top", " -1.28%")
+                                     .css("margin-left", "519px");
+                      
+ 
+       break;
+       default:
+          break;
+    }
+ 
+   // $(this).removeClass("his-hidden");
+ });
+ 
+ $(".hover-cocina-piloto").hover(function () {
+ 
+   let index = $(this).attr("id");
+ 
+    switch (index) {
+       case "11": $("#text-cocina-mIta").toggleClass('is-hidden')
+                                        .css("margin-top", " -2.15%")
+                                        .css("margin-left", "197px");    
+       break;
+       case "12":$("#text-cocina-campTeka").toggleClass('is-hidden')
+                                        .css("margin-top", " -1.8%")
+                                        .css("margin-left", "229px");
+       break;
+       case "13":$("#text-cocina-salTop").toggleClass('is-hidden')
+                                        .css("margin-top", " -1.75%")
+                                        .css("margin-left", "212px");
+           
+       break;
+       case "14":$("#text-cocina-cubCoc").toggleClass('is-hidden')
+                                        .css("margin-top", " -1.5%")
+                                        .css("margin-left", "203px");
+         
+          
+       break;
+       case "15":$("#text-cocina-encVitro").toggleClass('is-hidden')
+                                        .css("margin-top", " -1.75%")
+                                        .css("margin-left", "223px");
+ 
+       break;
+       case "16":$("#text-cocina-cajonCub").toggleClass('is-hidden')
+                                        .css("margin-top", " -1.1%")
+                                        .css("margin-left", "327px");
+                        
+        break;
+       case "17":$("#text-cocina-mIta2").toggleClass('is-hidden')
+                                        .css("margin-top", " -0.95%")
+                                        .css("margin-left", "179px");
+                                                 
+       break;
+ 
+ 
+       case "18":$("#text-cocina-condimentero").toggleClass('is-hidden')
+                                        .css("margin-top", " -0.58%")
+                                        .css("margin-left", "195px");
+ 
+ 
+       break;
+       case "19":$("#text-cocina-cajonOlla").toggleClass('is-hidden')
+                                        .css("margin-top", " -0.6%")
+                                        .css("margin-left", "281px");
+ 
+       break;
+       case "20":$("#text-cocina-espLava").toggleClass('is-hidden')
+                                           .css("margin-top", " -1.1%")
+                                           .css("margin-left", "382px");
+ 
+ 
+       break;
+       case "21":$("#text-cocina-griferia").toggleClass('is-hidden')
+                                     .css("margin-top", " -1.9%")
+                                     .css("margin-left", "514px");
+                      
+ 
+       break;
+
+       case "22":$("#text-cocina-espRefri").toggleClass('is-hidden')
+                                     .css("margin-top", " -2.4%")
+                                     .css("margin-left", "449px");
+                      
+ 
+       break;
+
+       case "23":$("#text-cocina-hornoMicro").toggleClass('is-hidden')
+                                     .css("margin-top", " -2.2%")
+                                     .css("margin-left", "372px");
+                      
+ 
+       break;
+       default:
+          break;
+    }
+ 
+ 
+   // $(this).removeClass("his-hidden");
+ 
+ });
+
+
+
+
+$('.area-living-puerta').hover(function() {
+   $('#text-living-puerta').toggleClass('is-hidden');
+});
+
+$('.area-living-separador').hover(function() {
+   $('#text-living-separador').toggleClass('is-hidden');
+
+});
 
 
 
 
 
+$('.area-banop-lavamanos').hover(function() {
+   $('#text-banop-lavamanos').toggleClass('is-hidden');
+});
+
+$('.area-banop-puerta').hover(function() {
+   $('#text-banop-puerta').toggleClass('is-hidden');
+
+});
+$('.area-banop-ducha').hover(function() {
+   $('#text-banop-ducha').toggleClass('is-hidden');
+});
 
 
 
+$('.area-bano-lavamanos').hover(function() {
+   $('#text-bano-lavamanos').toggleClass('is-hidden');
+});
+
+$('.area-bano-puerta').hover(function() {
+   $('#text-bano-puerta').toggleClass('is-hidden');
+
+});
+$('.area-bano-ducha').hover(function() {
+   $('#text-bano-ducha').toggleClass('is-hidden');
+});
 
 
 
+//Navbar fixed
+let distance = $("#site-navigation").offset().top;
+
+$(window).scroll(function () {
+   if ($(this).scrollTop() >= distance) {
+      $("#site-navigation").addClass("is-fixed-top");
+   } else {
+      $("#site-navigatione").removeClass("is-fixed-top");
+   }
+});
 
 
 
+// Seleccion del menude navegacion
 
 
+
+$(".btn-piso").on('click', function () {
+ 
+    // control de botones
+    $('.btn-piso').addClass("button-gray");
+    $('.btn-piso').removeClass("button-blue");
+    //$('.disponibilidad').addClass('is-hidden');
+
+    var id_tag = $(this).data('attribute');
+    //$('#dis-' + id_tag).removeClass('is-hidden');
+
+
+    switch (id_tag) {
+       case "2-13":
+            changeTextPisos("PLANTAS PISOS 2 AL 13","SOLO 3 DEPTOS. POR PISO");
+            $('#imagen-piso').attr("src",`${URLactual.pathname}/wp-content/themes/WP_bulma_theme/assets/img/piso_2_13.png`)
+            $('.imagen-bottom-pisos').attr("src",`${URLactual.pathname}/wp-content/themes/WP_bulma_theme/assets/img/text_bottom.png`)
+          break;
+       case "14-15":
+            changeTextPisos("PLANTAS PISO 14","SOLO 2 DEPTOS. POR PISO");
+            
+            console.log(URLactual);
+            $('#imagen-piso').attr("src",`${URLactual.pathname}/wp-content/themes/WP_bulma_theme/assets/img/piso_14.png`)
+            $('.imagen-bottom-pisos').attr("src",`${URLactual.pathname}/wp-content/themes/WP_bulma_theme/assets/img/text_bottom2.png`)
+          break;
+       case "pent":
+            changeTextPisos("PENTHOUSES","");
+            $('#imagen-piso').attr("src",`${URLactual.pathname}/wp-content/themes/WP_bulma_theme/assets/img/piso_14.png`)
+            $('.imagen-bottom-pisos').attr("src",`${URLactual.pathname}/wp-content/themes/WP_bulma_theme/assets/img/text_bottom2.png`)
+          break;
+
+    }
+
+    $(this).removeClass("button-gray");
+    $(this).addClass("button-blue");
+
+});
 
 
 

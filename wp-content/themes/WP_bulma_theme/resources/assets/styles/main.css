@@ -10251,64 +10251,156 @@ label.panel-block:hover {
   font-family: "f_neutra_bold";
   color: black;
   position: absolute;
-  margin-top: 2.3%;
-  margin-left: 2%;
+
+  margin-top: 1.05%;
+  margin-left: 1%;
+
 }
 
 .text-hover-piso {
   font-family: "f_neutra_bold";
   color: black;
   position: absolute;
-  margin-top: -0.8%;
-  margin-left: 0.2%;
+
+  margin-top: -54px;
+  margin-left: 10px;
+
 }
 
 .text-hover-usb {
   font-family: "f_neutra_bold";
   color: black;
   position: absolute;
+
   margin-top: -4.9%;
   margin-left: 9.2%;
+
 }
 
 .text-hover-ventana-2 {
   font-family: "f_neutra_bold";
   color: black;
   position: absolute;
-  margin-top: 2.7%;
-  margin-left: 8.11%;
+
+  margin-top: 1.15%;
+  margin-left: 3.4%;
+
 }
 
 .text-hover-piso-2 {
   font-family: "f_neutra_bold";
   color: black;
   position: absolute;
-  margin-top: -0.7%;
-  margin-left: 6.2%;
+
+  margin-top: -40px;
+  margin-left: 2.5%;
+
 }
 
 .text-baranda-terraza {
   font-family: "f_neutra_bold";
   color: black;
   position: absolute;
-  margin-top: 3.0%;
-  margin-left: 2%;
+
+  margin-top: 1.4%;
+  margin-left: 0.87%;
+
 }
 
 .text-piso-terraza {
   font-family: "f_neutra_bold";
   color: black;
   position: absolute;
-  margin-top: -1.7%;
-  margin-left: 5.2%;
+
+  margin-top: -0.9%;
+  margin-left: 1.2%;
+
 }
 
 .text-ventana-terraza {
   font-family: "f_neutra_bold";
   color: black;
   position: absolute;
-  margin-top: 2.5%;
-  margin-left: 8.2%;
+
+  margin-top: 1.2%;
+  margin-left: 3.55%;
+}
+
+.text-cocina {
+  font-family: "f_neutra_bold";
+  color: black;
+  position: absolute;
+}
+
+.text-living-puerta {
+  font-family: "f_neutra_bold";
+  color: black;
+  position: absolute;
+  margin-top: 1.2%;
+  margin-left: 0.2%;
+}
+
+.text-living-separador {
+  font-family: "f_neutra_bold";
+  color: black;
+  position: absolute;
+  margin-top: 0.6%;
+  margin-left: 1.0%;
+}
+
+.text-banop-lavamanos {
+  font-family: "f_neutra_bold";
+  color: black;
+  position: absolute;
+  margin-top: 1.7%;
+  margin-left: 1.5%;
+}
+
+.text-banop-puerta {
+  font-family: "f_neutra_bold";
+  color: black;
+  position: absolute;
+  margin-top: 1.6%;
+  margin-left: 3.5%;
+}
+
+.text-banop-ducha {
+  font-family: "f_neutra_bold";
+  color: black;
+  position: absolute;
+  margin-top: 0.9%;
+  margin-left: 2.5%;
+}
+
+.text-bano-lavamanos {
+  font-family: "f_neutra_bold";
+  color: black;
+  position: absolute;
+  margin-top: 1.7%;
+  margin-left: 3.5%;
+}
+
+.text-bano-puerta {
+  font-family: "f_neutra_bold";
+  color: black;
+  position: absolute;
+  margin-top: 1.7%;
+  margin-left: 2.5%;
+}
+
+.text-bano-ducha {
+  font-family: "f_neutra_bold";
+  color: black;
+  position: absolute;
+  margin-top: 0.9%;
+  margin-left: 2.5%;
+}
+
+.text-cocina-piloto {
+  font-family: "f_neutra_bold";
+  color: black;
+  position: absolute;
+
 }
 
 @media only screen and (max-width: 514px) {
@@ -10408,4 +10500,28 @@ label.panel-block:hover {
   .mt-20 {
     margin-top: 7%;
   }
+
+  .f_ml_b {
+    font-family: "f_ml";
+    font-weight: 300;
+  }
+  .menu-activado {
+    font-family: "f_ml";
+    font-weight: bold;
+  }
+  .menu-desactivado {
+    font-family: "f_ml";
+    font-weight: 300;
+  }
+  .button-blue {
+    background-color: #005D75;
+    padding: 5px 20px;
+    border-radius: 0px;
+  }
+  .button-gray {
+    background-color: #252828;
+    padding: 5px 20px;
+    border-radius: 0px;
+  }
+
 }

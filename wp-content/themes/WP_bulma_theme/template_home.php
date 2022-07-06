@@ -38,18 +38,18 @@
             <div class="columns has-text-white">
 
                 <div class="column is-5-desktop is-offset-2-desktop ">
-                    <h2 class="f_ml is-size-4 espacio3">EL DISEÑO Y LA VANGUARDIA EN UN SOLO LUGAR</h2>
+                    <h2 class="f_ml is-size-4 espacio3">DISEÑO Y VANGUARDIA EN UN SOLO LUGAR</h2>
                     <img  src="<?php echo get_template_directory_uri();?>/assets/img/line_white.png" alt="line">
-                    <p class="has-text-justified">Respira hondo, siente la desconexión y disfruta del relajo que solo te pueden dar las olas de
-                         Iquique. <br> <br> Edificio Dalí Península es un proyecto boutique que cuenta con 16 pisos y tan sólo
-                          42 departamentos. Ubicado frente a la costa del Pacífico, vas a experimentar la tranquilidad
+                    <p class="has-text-justified">Respira, siente la desconexión y disfruta del relajo que solo te pueden dar las olas. <br> <br>
+                          Edificio Dalí Península es un proyecto boutique que cuenta con 16 pisos y tan sólo
+                          42 departamentos. Ubicado en la Península de Cavancha, vas a experimentar la tranquilidad
                            y desconexión a otro nivel.</p>
                 </div>
                 <div class="column is-5-desktop is-offset-1-desktop pt-40 ">
-                    <h2 class="f_neutra">2, 3 & 4 <br>  Dormitorios.</h2>
+                    <h2 class="f_neutra">2 & 3 <br>  DORMITORIOS </h2>
                     <img src="<?php echo get_template_directory_uri();?>/assets/img/line_blue.png" alt="line">
 
-                    <h2 class="f_neutra">Penthouses</h2>
+                    <h2 class="f_neutra">4 DORMS. & PENTHOUSES</h2>
                 </div>
             </div>
 
@@ -74,7 +74,9 @@
                         <h2 class="f_ml is-size-3  ">VIDEO</h2>
                     </div>
                     <h2 class="f_ml is-size-3">PILOTO VIRTUAL</h2>
-                    <p>Una nueva forma de recorrer la altura de Iquique.<p>
+                    <p>Una nueva forma de recorrer los amplios <br>
+                    espacios y sentir que ya vives en Dalí<p>
+                    
                         <br>
                     <h4 class="f_mbItalic">  DEPTO. TIPO A <br> 3 DORMS. + 3 BAÑOS</h4>
 
@@ -102,10 +104,10 @@
 
                     <div class="columns  has-text-centered">
                         <div class="column is-3-desktop  is-offset-2-desktop  is-2-mobile has-text-white  ">
-                            <button class="button-blue btn-piso"  data-attribute="2-13">Piso 2 al 13</button>
+                            <button class="button-blue btn-piso"  data-attribute="2-13">Pisos 2 al 13</button>
                         </div>
                         <div class="column is-3-desktop has-text-white is-2-mobile   ">
-                            <button class="button-gray btn-piso"  data-attribute="14-15">Piso 14 y 15*</button>
+                            <button class="button-gray btn-piso"  data-attribute="14-15">Pisos 14 y 15*</button>
                         </div>
                         <div class="column is-3-desktop has-text-white is-2-mobile   ">
                             <button class="button-gray btn-piso"  data-attribute="pent">Penthouses</button>
@@ -119,7 +121,7 @@
                             <div class="column is-5-desktop is-offset-6-tablet mt-40-plantas">
                                 <div class="is-flex">
                                     <img src="<?php echo get_template_directory_uri();?>/assets/img/arrow_small.png" alt="play">
-                                    <p id="text-pisos" class="f_sinm has-text-black">PLANTAS PISO 2 AL 13 </p>
+                                    <p id="text-pisos" class="f_sinm has-text-black">PLANTAS PISOS 2 AL 13 </p>
                                 </div>
                                 <p id="text-pisos-deptos" class="has-text-white has-background-black f_sinl">SOLO 3 DEPTOS. POR PISO<p>
                             </div>
