@@ -10251,62 +10251,77 @@ label.panel-block:hover {
   font-family: "f_neutra_bold";
   color: black;
   position: absolute;
+
   margin-top: 1.05%;
   margin-left: 1%;
+
 }
 
 .text-hover-piso {
   font-family: "f_neutra_bold";
   color: black;
   position: absolute;
+
   margin-top: -54px;
   margin-left: 10px;
+
 }
 
 .text-hover-usb {
   font-family: "f_neutra_bold";
   color: black;
   position: absolute;
-  margin-top: -1.7%;
-  margin-left: 3.8%;
+
+  margin-top: -4.9%;
+  margin-left: 9.2%;
+
 }
 
 .text-hover-ventana-2 {
   font-family: "f_neutra_bold";
   color: black;
   position: absolute;
+
   margin-top: 1.15%;
   margin-left: 3.4%;
+
 }
 
 .text-hover-piso-2 {
   font-family: "f_neutra_bold";
   color: black;
   position: absolute;
+
   margin-top: -40px;
   margin-left: 2.5%;
+
 }
 
 .text-baranda-terraza {
   font-family: "f_neutra_bold";
   color: black;
   position: absolute;
+
   margin-top: 1.4%;
   margin-left: 0.87%;
+
 }
 
 .text-piso-terraza {
   font-family: "f_neutra_bold";
   color: black;
   position: absolute;
+
   margin-top: -0.9%;
   margin-left: 1.2%;
+
 }
 
 .text-ventana-terraza {
   font-family: "f_neutra_bold";
   color: black;
   position: absolute;
+
   margin-top: 1.2%;
   margin-left: 3.55%;
 }
@@ -10385,6 +10400,7 @@ label.panel-block:hover {
   font-family: "f_neutra_bold";
   color: black;
   position: absolute;
+
 }
 
 @media only screen and (max-width: 514px) {
@@ -10484,6 +10500,7 @@ label.panel-block:hover {
   .mt-20 {
     margin-top: 7%;
   }
+
   .f_ml_b {
     font-family: "f_ml";
     font-weight: 300;
@@ -10506,4 +10523,5 @@ label.panel-block:hover {
     padding: 5px 20px;
     border-radius: 0px;
   }
+
 }

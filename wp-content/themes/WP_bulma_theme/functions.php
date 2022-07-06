@@ -21,6 +21,7 @@ function bt_get_titlebar($title, $breadcrumb_array=[])
 // enqueue theme styles
 function my_theme_enqueue_styles() {
 
+    wp_enqueue_style( 'facyBox', get_template_directory_uri() . '/assets/styles/jquery.fancybox.min.css' ); 
 	wp_enqueue_style( 'bulma', get_template_directory_uri() . '/assets/styles/main.min.css' ); 
     wp_enqueue_style( 'wpbulma', get_template_directory_uri() . '/style.css' );
 	wp_enqueue_style( 'slick-theme', get_template_directory_uri() . '/assets/styles/slick-theme.css' ); //se llama al archivo minificado

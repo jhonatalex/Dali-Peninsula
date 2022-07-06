@@ -34,18 +34,20 @@ $(document).ready(function () {
         switch (id_tag) {
            case "2-13":
                 changeTextPisos("PLANTAS PISO 2 AL 13","SOLO 3 DEPTOS. POR PISO");
-                $('#imagen-piso').attr("src","http://localhost/ByL/Dali-Peninsula/wp-content/themes/WP_bulma_theme/assets/img/piso_2_13.png")
-                $('.imagen-bottom-pisos').attr("src","http://localhost/ByL/Dali-Peninsula/wp-content/themes/WP_bulma_theme/assets/img/text_bottom.png")
+                $('#imagen-piso').attr("src",`${URLactual.pathname}/wp-content/themes/WP_bulma_theme/assets/img/piso_2_13.png`)
+                $('.imagen-bottom-pisos').attr("src",`${URLactual.pathname}/wp-content/themes/WP_bulma_theme/assets/img/text_bottom.png`)
               break;
            case "14-15":
                 changeTextPisos("PLANTAS PISO 14","SOLO 2 DEPTOS. POR PISO");
-                $('#imagen-piso').attr("src","http://localhost/ByL/Dali-Peninsula/wp-content/themes/WP_bulma_theme/assets/img/piso_14.png")
-                $('.imagen-bottom-pisos').attr("src","http://localhost/ByL/Dali-Peninsula/wp-content/themes/WP_bulma_theme/assets/img/text_bottom2.png")
+                
+                console.log(URLactual);
+                $('#imagen-piso').attr("src",`${URLactual.pathname}/wp-content/themes/WP_bulma_theme/assets/img/piso_14.png`)
+                $('.imagen-bottom-pisos').attr("src",`${URLactual.pathname}/wp-content/themes/WP_bulma_theme/assets/img/text_bottom2.png`)
               break;
            case "pent":
                 changeTextPisos("PENTHOUSE","");
-                $('#imagen-piso').attr("src","http://localhost/ByL/Dali-Peninsula/wp-content/themes/WP_bulma_theme/assets/img/piso_14.png")
-                $('.imagen-bottom-pisos').attr("src","http://localhost/ByL/Dali-Peninsula/wp-content/themes/WP_bulma_theme/assets/img/text_bottom2.png")
+                $('#imagen-piso').attr("src",`${URLactual.pathname}/wp-content/themes/WP_bulma_theme/assets/img/piso_14.png`)
+                $('.imagen-bottom-pisos').attr("src",`${URLactual.pathname}/wp-content/themes/WP_bulma_theme/assets/img/text_bottom2.png`)
               break;
   
         }
@@ -87,6 +89,7 @@ $(document).ready(function () {
    
 
     $('#zoom-galery').on('click', function () {
+
         $('.z').toggleClass('zoom');
 
     });
@@ -582,6 +585,7 @@ $('.baranda-3').hover(function() {
 });
 
 
+
 $(".hover-cocina").hover(function () {
  
    let index = $(this).attr("id");
@@ -755,6 +759,7 @@ $('.area-living-separador').hover(function() {
    $('#text-living-separador').toggleClass('is-hidden');
 
 });
+
 
 
 

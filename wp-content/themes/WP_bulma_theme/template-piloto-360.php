@@ -34,6 +34,7 @@
                 </div>
                 <div class="column is-6 has-text-right-desktop   has-text-centered-mobile mt-20">
                 <img  class="button-play" id="buttom-piloto-virtual" src="<?php echo get_template_directory_uri();?>/assets/img/buttom_play.png" alt="play">
+
                     </a>
                 </div>
             </div>  
@@ -77,10 +78,12 @@
 
                         <div class="slide">
                             <p id="text-ventanas" class="is-hidden text-hover-ventana">Ventanas de PVC*<p>
+
                             <img  class="url-zoom"  usemap="#image-map" src="<?php echo get_template_directory_uri();?>/assets/img/galeria_depto_tipo_A/Dali_Dorm_Principal.jpg" alt="Edificio Dalí Loga">
                             <map name="image-map">
                                 <area  id="sector-ventanas"  alt="Ventanas de PVC" title="Ventanas de PVC" coords="219,209,22" shape="circle">
                                 <area  id="sector-piso" alt="Piso Porcelanato MK" title="Piso Porcelanato MK"  coords="185,466,23" shape="circle">
+
                                 <area  id="sector-usb"  alt="Puesto USB" title="Puesto USB" coords="859,282,20" shape="circle">
                             </map>
                             <p id="text-piso" class="is-hidden text-hover-piso">Piso porcelanato MK*<p>
@@ -90,10 +93,12 @@
 
                         <div class="slide" >
                             <p id="text-ventanas-2" class="is-hidden text-hover-ventana-2">Ventanas de PVC*<p>
+
                             <img  class="url-zoom"  usemap="#image-map-2" src="<?php echo get_template_directory_uri();?>/assets/img/galeria_depto_tipo_A/Dali_Living_Comedor.jpg" alt="Edificio Dalí Loga">
                         
                             <map name="image-map-2">
                                 <area  id="sector-piso-2" alt="Piso porcelanato MK*" title="Piso porcelanato MK*"  coords="477,449,21" shape="circle">
+
                                 <area  id="sector-ventanas-2" alt="Ventanas de PVC*" title="Ventanas de PVC*"  coords="609,226,21" shape="circle">
                             </map>
                         
@@ -106,13 +111,16 @@
                                 <img  class="url-zoom"   usemap="#image-map-3" src="<?php echo get_template_directory_uri();?>/assets/img/galeria_depto_tipo_A/Dali_Terraza.jpg" alt="Edificio Dalí Loga">
                             
                                 <map name="image-map-3">
+
                                     <area class="baranda-3" alt="Barandas de Cristal" title="Cristal" href="barandas" coords="202,273,35" shape="circle">
                                     <area class="piso-3" alt="Pisos Porcelanato Mk" title="Piso Porcelanato Mk" href="cocina=" coords="371,372,24" shape="circle">
+
                                     <area class="ventana-3" alt="Ventanas PVC" title=" PVC" href="ventanas" coords="671,234,31" shape="circle">
                                 </map>
 
                                 <p id="text-piso-terraza" class="is-hidden text-piso-terraza">Piso porcelanato MK*<p> 
                         </div>
+
 
                      
              
