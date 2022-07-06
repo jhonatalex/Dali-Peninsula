@@ -98,6 +98,8 @@ $size-1: 3.5rem;
 .f_ml {
    font-family: "f_ml";
 }
+
+
 .f_mm {
    font-family: "f_mm";
 }
@@ -112,15 +114,12 @@ $size-1: 3.5rem;
     font-style:italic;
  }
 
-
-
 .f_sinl {
    font-family: "f_sinl";
 }
 .f_sinm {
    font-family: "f_sinm";
 }
-
 
 
 @font-face {
@@ -162,6 +161,24 @@ padding-top: 40px;
     margin-top: 100px;
 }
 
+.mt-150{
+    margin-top: 150px;
+}
+
+.mt-60{
+    margin-top: 60px;
+}
+
+.mt-40-plantas{
+    margin-top: 40px;
+}
+
+
+.mt-60-negativo{
+    margin-top: -10%;
+}
+
+
 .pt-full-50{
  padding-top: 16%;
 }
@@ -170,9 +187,15 @@ padding-top: 40px;
     padding-top: 125%;
    }
 
-
 .pt-full-10{
     padding-top: 5%;
+}
+
+.pl-10{
+    padding-top: 8px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 8px;
 }
 
 .espacio4{
@@ -183,25 +206,55 @@ padding-top: 40px;
     letter-spacing:3px;    
 }
 
-
-
-.main-navigation {
-    display: block;
-    width: 100%;
+.position{
+    position: fixed;
 }
 
-.navbar-item{
 
+
+.flex-container-navbar {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    height: 60px;
+  }
+
+
+
+.navbar-item{
     border-left: 2px solid #020202;
     height:5px;
     padding: 5px 30px;
+    text-decoration: none;
+    background:none;
+    color:black;
+}
 
+
+.navbar-item:hover{
+    background-color:rgba(255,255,255,0.8);
+    text-decoration: none;
+    color:black;
 }
 
 .navbar {
 background-color:rgba(255,255,255,0.8);
 position:absolute;
 width: 100%;
+color:black;
 }
 
 
@@ -253,40 +306,36 @@ width: 100%;
 }
 
 
-.flex-container {
-    width: 100%;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
-    -ms-flex-wrap: nowrap;
-        flex-wrap: nowrap;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    height: 60px;
-  }
-
 
  
-
 #piloto-virtual{
     background-image:url("../../assets/img/piloto_virtua.png");
-    background-color:rgba(3, 3, 3, 0.425);
-    background-size: cover;
+    //background-color:rgba(3, 3, 3, 0.425);
+    //filter: brightness(50%); // Más oscura
     height:120vh;
-    padding-top: 15%;
-    z-index: 0;
+
 }
 
-#piloto-virtual .container{
-    z-index: 9999;
+.pt-15{
+ padding-top: 15%;
+}
+.brillo1{
+    background-color: rgba(0,0,0,0.2);
+    height: 120vh;
+    
+}
+
+.brillo2{
+    background-color: rgba(0,0,0,0.6);
+    height: 120vh;
+    
+}
+
+.button-play:hover{
+    cursor: pointer;
+    transform: translateY(-5px);
+    border-radius: 70px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
 }
 
 
@@ -306,7 +355,27 @@ width: 100%;
 }
 
 
-#perspectiva{
+
+.disponibilidad{
+    padding: 10px 50px;
+    border-top: 1px solid #ffff;
+    border-bottom: 1px solid #ffff;
+}
+
+
+
+
+
+
+.perspectiva-dia{
+    background-image:url("../../assets/img/perspectiva_dia.png");
+    background-color:rgba(3, 3, 3, 0.425);
+    background-size: cover;
+    height:120vh;
+    z-index: 0;
+}
+
+.perspectiva-noche{
     background-image:url("../../assets/img/perspectiva_noche.png");
     background-color:rgba(3, 3, 3, 0.425);
     background-size: cover;
@@ -328,18 +397,51 @@ width: 100%;
     font-size: 10pt;
 }
 
-.button-blue{
-    background-color: #0091B1;
-    padding: 5px 20px;
-    border-radius: 0px;
-}
+
+.container-btn-mode{
+    
+    cursor: pointer;
+    z-index: 2;
+    
+  }
+  .btn-mode{
+    display: inline-block;
+    margin: 0;
+    width: 50px;
+    height: 30px;
+    border:2px solid black;
+    transition: background-color .5s;
+  }
+  .btn-mode i {
+    display: block;
+    font-size: 17px;
+    text-align: center;
+    line-height: 30px;
+  }
+  .btn-mode.sun{
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-right: 1px solid transparent;
+    margin-right: -5px;
+  }
+  .btn-mode.moon{
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+  }
+  .active{
+    background-color:black;
+    color:#ffcd5c !important;
+  }
 
 
-.button-gray{
-    background-color: #707070;
-    padding: 5px 20px;
-    border-radius: 0px;
-}
+
+
+
+
+
+
+
+
 
 #cinemagraph{
     background-image:url("../../assets/img/cinema_fondo.png");
@@ -350,10 +452,14 @@ width: 100%;
 }
 
 .padding-buttom-10{
-    padding: 1px 35px;
+    padding: 0px 55px;
     border-radius: 0px;
+    height: 38px;
 }
 
+.imagen-bottom-pisos{
+    margin-left: 10px;
+}
 
 
 
@@ -422,9 +528,9 @@ width: 100%;
  
 
  .arrow-blue{
-     margin-left:5px;
+     margin-left:15px;
      width: 15px;
-     height:36px
+     height:30px
  }
 
 
@@ -456,10 +562,6 @@ width: 100%;
     line-height: 24px;
 }
 
-.domoticaEnfocada{
-    text-align: right;
-}
-
 .cotizar{
     border-radius: 0;
     background: #000;
@@ -488,6 +590,10 @@ width: 100%;
     margin-top: 25%;
 }
 
+.mt-20{
+    margin-top: 20%;
+}
+
 .mt-40{
     margin-top: 42%;
 }
@@ -496,10 +602,53 @@ width: 100%;
     border-radius: 0;
     background: #fff;
     border-width: 1px;
+
     border-color: #ccc;
     font-size: 20px;
     color: #000;
     padding: 10px 30px;
+}
+
+.zoom {
+    transition: transform .2s; 
+    transform: scale(1.5); 
+}
+
+.va-bottom{
+    align-items: flex-end;
+
+}
+.pb-25{
+    padding-bottom: 25px;
+}
+
+
+
+.text-hover-ventana{
+    font-family: "f_neutra_bold";
+    color: black;
+    position: absolute;
+    margin-top: 1.05%;
+    margin-left: 1%;
+
+    
+}
+
+.text-hover-piso{
+    font-family: "f_neutra_bold";
+    color: black;
+    position: absolute;
+    margin-top: -54px;
+    margin-left: 10px;
+}
+
+
+.text-hover-usb{
+    font-family: "f_neutra_bold";
+    color: black;
+    position: absolute;
+    margin-top: -1.7%;
+    margin-left: 3.8%;
 }
 
 
@@ -511,3 +660,311 @@ width: 100%;
 
 
 
+.text-hover-ventana-2{
+    font-family: "f_neutra_bold";
+    color: black;
+    position: absolute;
+    margin-top: 1.15%;
+    margin-left: 3.4%;
+}
+
+.text-hover-piso-2{
+    font-family: "f_neutra_bold";
+    color: black;
+    position: absolute;
+    margin-top: -40px;
+    margin-left: 2.5%;
+}
+
+
+
+
+
+
+.text-baranda-terraza{
+    font-family: "f_neutra_bold";
+    color: black;
+    position: absolute;
+    margin-top: 1.4%;
+    margin-left: 0.87%;
+}
+
+
+
+.text-piso-terraza{
+    font-family: "f_neutra_bold";
+    color: black;
+    position: absolute;
+    margin-top: -0.9%;
+    margin-left: 1.2%;
+}
+
+.text-ventana-terraza{
+    font-family: "f_neutra_bold";
+    color: black;
+    position: absolute;
+    margin-top: 1.2%;
+    margin-left: 3.55%;
+}
+
+
+.text-cocina{
+    font-family: "f_neutra_bold";
+    color: black;
+    position: absolute;
+
+}
+
+
+.text-living-puerta {
+    font-family: "f_neutra_bold";
+    color: black;
+    position: absolute;
+    margin-top: 1.2%;
+    margin-left: 0.2%;
+}
+
+.text-living-separador{
+    font-family: "f_neutra_bold";
+    color: black;
+    position: absolute;
+    margin-top: 0.6%;
+    margin-left: 1.0%;
+
+}
+
+.text-banop-lavamanos{
+    font-family: "f_neutra_bold";
+    color: black;
+    position: absolute;
+    margin-top: 1.7%;
+    margin-left: 1.5%; 
+
+}
+
+.text-banop-puerta{
+    font-family: "f_neutra_bold";
+    color: black;
+    position: absolute;
+    margin-top: 1.6%;
+    margin-left: 3.5%;
+
+}
+.text-banop-ducha{
+    font-family: "f_neutra_bold";
+    color: black;
+    position: absolute;
+    margin-top: 0.9%;
+    margin-left: 2.5%;
+
+}
+
+.text-bano-lavamanos{
+    font-family: "f_neutra_bold";
+    color: black;
+    position: absolute;
+    margin-top: 1.7%;
+    margin-left: 3.5%; 
+
+}
+
+.text-bano-puerta{
+    font-family: "f_neutra_bold";
+    color: black;
+    position: absolute;
+    margin-top: 1.7%;
+    margin-left: 2.5%;
+
+}
+.text-bano-ducha{
+    font-family: "f_neutra_bold";
+    color: black;
+    position: absolute;
+    margin-top: 0.9%;
+    margin-left: 2.5%;
+
+}
+
+
+.text-cocina-piloto{
+    font-family: "f_neutra_bold";
+    color: black;
+    position: absolute;
+
+}
+
+
+
+@media only screen and (max-width: 514px) {
+
+
+    .flex-container-navbar {
+        width: 100%;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: row;
+                flex-direction: row;
+        -ms-flex-wrap: nowrap;
+            flex-wrap: nowrap;
+        -webkit-box-pack: justify;
+            -ms-flex-pack: justify;
+                justify-content: space-between;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+        height: 20%;
+        background-color:rgba(255, 255, 255, 0.815);
+
+
+      }
+
+
+    .navbar-item{
+        border-left:none;
+        height:5px;
+        padding: 20px 5px 25px 5px;
+        text-decoration: none;
+        background:none;
+        color:black;
+    }
+    
+    
+    .navbar-burger {
+        color: black;
+        cursor: pointer;
+        display: block;
+        height: 3.25rem;
+        position: relative;
+        width: 3.25rem;
+        margin-left: auto;
+    }
+    
+    .navbar-menu{
+        background-color:rgba(255, 255, 255, 0.781);
+    }
+
+    .logo-menu-mobile {
+       padding:10px;
+       width:116px;
+    }
+
+    .pl-10{
+        padding-top: 0px;
+        padding-left: 10px;
+        padding-right: 0px;
+        padding-bottom: 8px;
+    }
+
+
+    #header{
+        background-image:url("../../assets/img/fondo_dali_header.png");
+        background-size: cover;
+        height:60vh;
+    }
+    
+
+    #piloto-virtual{
+        background-image:url("../../assets/img/piloto_virtua.png");
+        background-size: cover;
+        height:80vh;
+    
+    }
+
+
+    .perspectiva-dia{
+        background-image:url("../../assets/img/perspectiva_dia.png");
+        background-size: cover;
+        height:80vh;
+     
+    }
+    
+    .perspectiva-noche{
+        background-image:url("../../assets/img/perspectiva_noche.png");
+        background-size: cover;
+        height:80vh;
+    }
+
+    #cinemagraph{
+        background-image:url("../../assets/img/cinema_fondo.png");
+        background-size: cover;
+        height:80vh;
+     
+    }
+    
+    #header-piloto-360{
+        background-image:url("../../assets/img/living_piloto.png");
+        background-size: cover;
+        height:80vh;
+    }
+
+    .mt-150 {
+        margin-top: 80px;
+    }
+
+    #header-terminaciones{
+        background-image:url("../../assets/img/room-_terminaciones.png");
+        background-color: #cccccc;
+        background-size: cover;
+        color:black;
+        height:80vh;
+    }
+
+    #header-proyecto{
+        background-image:url("../../assets/img/perspectiva_dia.png");
+        background-color:rgba(3, 3, 3, 0.425);
+        background-size: cover;
+        height:80vh;
+       
+    }
+
+    .orientacion {
+        transform: rotate(-90deg);
+        margin-left: 0; 
+    }
+
+    .master-plan {
+        margin-left: -70%;
+    }
+
+
+    .mt-20 {
+        margin-top: 7%;
+    }
+    
+
+    //Nuevos CSS
+
+    .f_ml_b {
+        font-family: "f_ml";
+        font-weight: 300;
+     }
+
+
+     .menu-activado{
+        font-family: "f_ml";
+        font-weight: bold;
+    }
+    
+    .menu-desactivado{
+        font-family: "f_ml";
+        font-weight: 300;    
+    }
+
+    .button-blue{
+        background-color: #005D75;
+        padding: 5px 20px;
+        border-radius: 0px;
+    }
+    
+    
+    .button-gray{
+        background-color: #252828;
+        padding: 5px 20px;
+        border-radius: 0px;
+    }
+
+
+}
