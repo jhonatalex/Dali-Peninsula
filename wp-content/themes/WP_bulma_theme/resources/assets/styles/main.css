@@ -9894,10 +9894,6 @@ label.panel-block:hover {
   letter-spacing: 3px;
 }
 
-.position {
-  position: fixed;
-}
-
 .flex-container-navbar {
   width: 100%;
   display: flex;
@@ -10084,6 +10080,18 @@ label.panel-block:hover {
 .active {
   background-color: black;
   color: #ffcd5c !important;
+}
+
+.button-blue {
+  background-color: #0091B1;
+  padding: 5px 20px;
+  border-radius: 0px;
+}
+
+.button-gray {
+  background-color: #707070;
+  padding: 5px 20px;
+  border-radius: 0px;
 }
 
 #cinemagraph {

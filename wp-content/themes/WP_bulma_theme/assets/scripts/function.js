@@ -19,7 +19,42 @@ $(document).ready(function () {
 
    
 
-   
+
+    $(".btn-piso").on('click', function () {
+ 
+        // control de botones
+        $('.btn-piso').addClass("button-gray");
+        $('.btn-piso').removeClass("button-blue");
+        //$('.disponibilidad').addClass('is-hidden');
+  
+        var id_tag = $(this).data('attribute');
+        //$('#dis-' + id_tag).removeClass('is-hidden');
+  
+  
+        switch (id_tag) {
+           case "2-13":
+                changeTextPisos("PLANTAS PISO 2 AL 13","SOLO 3 DEPTOS. POR PISO");
+                $('#imagen-piso').attr("src","http://localhost/ByL/Dali-Peninsula/wp-content/themes/WP_bulma_theme/assets/img/piso_2_13.png")
+                $('.imagen-bottom-pisos').attr("src","http://localhost/ByL/Dali-Peninsula/wp-content/themes/WP_bulma_theme/assets/img/text_bottom.png")
+              break;
+           case "14-15":
+                changeTextPisos("PLANTAS PISO 14","SOLO 2 DEPTOS. POR PISO");
+                $('#imagen-piso').attr("src","http://localhost/ByL/Dali-Peninsula/wp-content/themes/WP_bulma_theme/assets/img/piso_14.png")
+                $('.imagen-bottom-pisos').attr("src","http://localhost/ByL/Dali-Peninsula/wp-content/themes/WP_bulma_theme/assets/img/text_bottom2.png")
+              break;
+           case "pent":
+                changeTextPisos("PENTHOUSE","");
+                $('#imagen-piso').attr("src","http://localhost/ByL/Dali-Peninsula/wp-content/themes/WP_bulma_theme/assets/img/piso_14.png")
+                $('.imagen-bottom-pisos').attr("src","http://localhost/ByL/Dali-Peninsula/wp-content/themes/WP_bulma_theme/assets/img/text_bottom2.png")
+              break;
+  
+        }
+  
+        $(this).removeClass("button-gray");
+        $(this).addClass("button-blue");
+  
+    });
+
 
 
 
@@ -588,6 +623,9 @@ $(".hover-cocina").hover(function () {
                                                  
        break;
  
+jQuery('.modal-close').click(function() {
+    jQuery('#video-piloto-virtual').removeClass('is-active');
+});
  
        case "7":$("#text-cocina-encimera").toggleClass('is-hidden')
                                         .css("margin-top", " -2.05%")
@@ -763,20 +801,6 @@ $(window).scroll(function () {
 
 
 // Seleccion del menude navegacion
-
-$(".navbar-item").on('click', function () {
- 
-    // control de botones
-    $('.navbar-item').addClass("menu-desactivado");
-    $('.navbar-item').removeClass("menu-activado");
-    //$('.disponibilidad').addClass('is-hidden');
-
-  
-
-    $(this).removeClass("menu-desactivado");
-    $(this).addClass("menu-activado");
-
-});
 
 
 

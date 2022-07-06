@@ -31,7 +31,7 @@
 
 
 
-    <nav id="site-navigation" role="navigation" class="navbar has-text-white p-13px has-background-white-light font-Metropolis_Light fixed ">
+    <nav id="site-navigation" role="navigation" class="navbar has-text-white p-13px has-background-white-light font-Metropolis_Light fixed">
         <div class="navbar-brand">
             <a class="is-hidden-desktop" href="#">
                 <img  class="logo-menu-mobile" src="<?php echo get_template_directory_uri();?>/assets/img/logo_loga.png" alt="Loga Inmobiliaria" >
@@ -42,13 +42,13 @@
                 <span></span>
             </div>
         </div>
-        <div id="navbarExampleTransparentExample" class="navbar-menu ">
+        <div id="navbarExampleTransparentExample" class="navbar-menu">
             <div class="flex-container-navbar pl-10">
 
                 <div class="site-branding is-hidden-mobile">
                     <img src="<?php echo get_template_directory_uri();?>/assets/img/logo_loga.png" alt="Loga Inmobiliaria" class="img-max-50">
                 </div>
-            
+               
                 <div class="main-navigation is-flex-desktop f_ml_b has-text-black">
                     <a class="navbar-item  is-size-6 " href="/ByL/Dali-Peninsula/#header">HOME</a>
                     <a class="navbar-item  is-size-6 " href="/ByL/Dali-Peninsula/proyecto/">PROYECTO</a>
@@ -56,16 +56,16 @@
                     <a class="navbar-item  is-size-6 " href="/ByL/Dali-Peninsula/depto-a/">DEPTO. A </a>
                     <a class="navbar-item  is-size-6 " href="/ByL/Dali-Peninsula/#SeccionContacto">CONTACTO</a>
                 </div>    
-               
-                   <!--
-                <div class="main-navigation is-flex-desktop f_ml_b has-text-black">
+                
+               <!-- 
+                <div class="main-navigation is-flex-desktop f_neutra_bold has-text-black">
                     <a class="navbar-item  is-size-6 " href="/beta/Dali/#header">HOME</a>
                     <a class="navbar-item  is-size-6 " href="/beta/Dali/proyecto/">PROYECTO</a>
                     <a class="navbar-item  is-size-6 " href="/beta/Dali/terminaciones/">TERMINACIONES</a>
                     <a class="navbar-item  is-size-6 " href="/beta/Dali/depto-a/">DEPTO. A </a>
                     <a class="navbar-item  is-size-6 " href="/beta/Dali/#SeccionContacto">CONTACTO</a>
                 </div>    
- -->
+                -->
 
 
 

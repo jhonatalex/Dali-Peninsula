@@ -34,10 +34,6 @@
                 </div>
                 <div class="column is-6 has-text-right-desktop   has-text-centered-mobile mt-20">
                 <img  class="button-play" id="buttom-piloto-virtual" src="<?php echo get_template_directory_uri();?>/assets/img/buttom_play.png" alt="play">
-                    <p class="f_bozon_r is-size-14 pt-40 " >No importa dónde estés, ni lo que estés haciendo...<br>
-                    Visualiza tu nueva vida, desde la comodidad de tu hogar</p>
-                    <a href="beta/Dali/#SeccionContacto">
-                        <button class="has-background-white  has-text-black padding-buttom-10 f_neutra is-size-4">Cotizar</button>
                     </a>
                 </div>
             </div>  
